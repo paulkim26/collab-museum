@@ -1,0 +1,363 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v3.4.50",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                11
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Box02_lambert1_0"
+        },
+        {
+            "mesh" : 1,
+            "name" : "Door_lambert1_0"
+        },
+        {
+            "children" : [
+                1
+            ],
+            "name" : "Door"
+        },
+        {
+            "mesh" : 2,
+            "name" : "Panel_lambert1_0"
+        },
+        {
+            "children" : [
+                3
+            ],
+            "name" : "Panel"
+        },
+        {
+            "children" : [
+                0,
+                2,
+                4
+            ],
+            "name" : "Box02"
+        },
+        {
+            "name" : "Door.001"
+        },
+        {
+            "name" : "Panel.001"
+        },
+        {
+            "children" : [
+                6,
+                7
+            ],
+            "name" : "Box02_Open"
+        },
+        {
+            "children" : [
+                5,
+                8
+            ],
+            "name" : "RootNode"
+        },
+        {
+            "children" : [
+                9
+            ],
+            "name" : "729318505ac644e58f31cfb22c4a38d4.fbx",
+            "rotation" : [
+                0.70710688829422,
+                0,
+                0,
+                0.7071066498756409
+            ]
+        },
+        {
+            "children" : [
+                10
+            ],
+            "name" : "Sketchfab_model",
+            "rotation" : [
+                -0.70710688829422,
+                0,
+                0,
+                0.7071066498756409
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "lambert1",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 0
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 1
+                }
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Box02_lambert1_0",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "TEXCOORD_0" : 1,
+                        "NORMAL" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        },
+        {
+            "name" : "Door_lambert1_0",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "TEXCOORD_0" : 5,
+                        "NORMAL" : 6
+                    },
+                    "indices" : 7,
+                    "material" : 0
+                }
+            ]
+        },
+        {
+            "name" : "Panel_lambert1_0",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 8,
+                        "TEXCOORD_0" : 9,
+                        "NORMAL" : 10
+                    },
+                    "indices" : 11,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "lambert1_baseColor",
+            "uri" : "mdl_mumbo_case/lambert1_baseColor.jpg"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "lambert1_metallicRoughness",
+            "uri" : "mdl_mumbo_case/lambert1_metallicRoughness.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 2128,
+            "max" : [
+                -32.04277038574219,
+                109.38482666015625,
+                17.649999618530273
+            ],
+            "min" : [
+                -97.55137634277344,
+                -9.9999998245167e-14,
+                -17.649999618530273
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 2128,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 2128,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 3102,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 195,
+            "max" : [
+                -33.04707336425781,
+                83.80000305175781,
+                -15.649999618530273
+            ],
+            "min" : [
+                -96.54707336425781,
+                21.700008392333984,
+                -18.19404411315918
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 195,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 195,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5123,
+            "count" : 276,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 8,
+            "componentType" : 5126,
+            "count" : 188,
+            "max" : [
+                -33.04707336425781,
+                112.5,
+                17.649995803833008
+            ],
+            "min" : [
+                -96.54707336425781,
+                83.79999542236328,
+                -17.649995803833008
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 9,
+            "componentType" : 5126,
+            "count" : 188,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 10,
+            "componentType" : 5126,
+            "count" : 188,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 11,
+            "componentType" : 5123,
+            "count" : 204,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 25536,
+            "byteOffset" : 0,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 17024,
+            "byteOffset" : 25536,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 25536,
+            "byteOffset" : 42560,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 6204,
+            "byteOffset" : 68096,
+            "target" : 34963
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2340,
+            "byteOffset" : 74300,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1560,
+            "byteOffset" : 76640,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2340,
+            "byteOffset" : 78200,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 552,
+            "byteOffset" : 80540,
+            "target" : 34963
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2256,
+            "byteOffset" : 81092,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1504,
+            "byteOffset" : 83348,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2256,
+            "byteOffset" : 84852,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 408,
+            "byteOffset" : 87108,
+            "target" : 34963
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 87516,
+            "uri" : "mdl_mumbo_case.bin"
+        }
+    ]
+}
