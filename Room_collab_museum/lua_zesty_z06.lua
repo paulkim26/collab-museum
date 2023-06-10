@@ -147,34 +147,34 @@ function setSlot(i, key)
 		slots[i][1] = "X"
 		slots[i][2] = "X"
 	else
-		if key == z06_c2.transform.gameObject then
+		if key == z06_c2_painting.transform.gameObject then
 			slots[i][1] = "c"
 			slots[i][2] = "2"
-		elseif key == z06_c3.transform.gameObject then
+		elseif key == z06_c3_painting.transform.gameObject then
 			slots[i][1] = "c"
 			slots[i][2] = "3"
-		elseif key == z06_d1.transform.gameObject then
+		elseif key == z06_d1_painting.transform.gameObject then
 			slots[i][1] = "d"
 			slots[i][2] = "1"
-		elseif key == z06_d2.transform.gameObject then
+		elseif key == z06_d2_painting.transform.gameObject then
 			slots[i][1] = "d"
 			slots[i][2] = "2"
-		elseif key == z06_d4.transform.gameObject then
+		elseif key == z06_d4_painting.transform.gameObject then
 			slots[i][1] = "d"
 			slots[i][2] = "4"
-		elseif key == z06_h1.transform.gameObject then
+		elseif key == z06_h1_painting.transform.gameObject then
 			slots[i][1] = "h"
 			slots[i][2] = "1"
-		elseif key == z06_h4.transform.gameObject then
+		elseif key == z06_h4_painting.transform.gameObject then
 			slots[i][1] = "h"
 			slots[i][2] = "4"
-		elseif key == z06_s1.transform.gameObject then
+		elseif key == z06_s1_painting.transform.gameObject then
 			slots[i][1] = "s"
 			slots[i][2] = "1"
-		elseif key == z06_s2.transform.gameObject then
+		elseif key == z06_s2_painting.transform.gameObject then
 			slots[i][1] = "s"
 			slots[i][2] = "2"
-		elseif key == z06_s3.transform.gameObject then
+		elseif key == z06_s3_painting.transform.gameObject then
 			slots[i][1] = "s"
 			slots[i][2] = "3"
 		end
