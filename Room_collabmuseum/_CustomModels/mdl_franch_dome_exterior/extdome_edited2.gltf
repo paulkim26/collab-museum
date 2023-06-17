@@ -1,0 +1,153 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v3.3.27",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Sphere001_Material #22_0",
+            "rotation" : [
+                -0.685322105884552,
+                0.17416580021381378,
+                0.17416583001613617,
+                0.6853219270706177
+            ],
+            "scale" : [
+                1,
+                1,
+                1.421659231185913
+            ],
+            "translation" : [
+                0.00021372316405177116,
+                -20.431196212768555,
+                -0.00032238446874544024
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "Material_22",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 0
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.8929713368415833
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Sphere001_Material #22_0",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "Material_22_baseColor",
+            "uri" : "Material_22_baseColor.jpg"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 3655,
+            "max" : [
+                74.74462890625,
+                74.74480438232422,
+                -9.022909164428711
+            ],
+            "min" : [
+                -74.74531555175781,
+                -74.74517059326172,
+                -59.709510803222656
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 3655,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 3655,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 9114,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 43860,
+            "byteOffset" : 0,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 43860,
+            "byteOffset" : 43860,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 29240,
+            "byteOffset" : 87720,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 18228,
+            "byteOffset" : 116960,
+            "target" : 34963
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 135188,
+            "uri" : "extdome_edited2.bin"
+        }
+    ]
+}
