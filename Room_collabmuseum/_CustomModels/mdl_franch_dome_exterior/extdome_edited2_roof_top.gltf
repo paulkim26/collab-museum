@@ -1,0 +1,279 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v3.3.27",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0,
+                1
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "koepelklein_Material #22_0",
+            "rotation" : [
+                -0.685322105884552,
+                0.17416580021381378,
+                0.17416581511497498,
+                0.6853219270706177
+            ],
+            "scale" : [
+                1,
+                1,
+                1.421659231185913
+            ],
+            "translation" : [
+                0.000213623046875,
+                -20.431196212768555,
+                -0.00031280517578125
+            ]
+        },
+        {
+            "mesh" : 1,
+            "name" : "roof2_Material #21_0",
+            "rotation" : [
+                -0.685322105884552,
+                0.17416580021381378,
+                0.17416581511497498,
+                0.6853219270706177
+            ],
+            "scale" : [
+                1,
+                1,
+                1.421659231185913
+            ],
+            "translation" : [
+                0.000213623046875,
+                -20.431196212768555,
+                -0.00031280517578125
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "Material_22",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 0
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.8929713368415833
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "Material_21.001",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 1
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.8929713368415833
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "koepelklein_Material #22_0",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        },
+        {
+            "name" : "roof2_Material #21_0",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6,
+                        "TEXCOORD_1" : 7
+                    },
+                    "indices" : 8,
+                    "material" : 1
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "Material_22_baseColor",
+            "uri" : "Material_22_baseColor.jpg"
+        },
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "Material_21_baseColor",
+            "uri" : "Material_21_baseColor.jpg"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 3981,
+            "max" : [
+                13.326438903808594,
+                13.326417922973633,
+                77.77388000488281
+            ],
+            "min" : [
+                -13.326459884643555,
+                -13.326460838317871,
+                56.18271255493164
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 3981,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 3981,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 9399,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 573,
+            "max" : [
+                9.474140167236328,
+                9.474652290344238,
+                87.72437286376953
+            ],
+            "min" : [
+                -9.475132942199707,
+                -9.47462272644043,
+                75.02983093261719
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 573,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 573,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5126,
+            "count" : 573,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 8,
+            "componentType" : 5123,
+            "count" : 1125,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 47772,
+            "byteOffset" : 0,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 47772,
+            "byteOffset" : 47772,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 31848,
+            "byteOffset" : 95544,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 18798,
+            "byteOffset" : 127392,
+            "target" : 34963
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 6876,
+            "byteOffset" : 146192,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 6876,
+            "byteOffset" : 153068,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 4584,
+            "byteOffset" : 159944,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 4584,
+            "byteOffset" : 164528,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2250,
+            "byteOffset" : 169112,
+            "target" : 34963
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 171364,
+            "uri" : "extdome_edited2_roof_top.bin"
+        }
+    ]
+}

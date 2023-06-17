@@ -1,0 +1,265 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v3.2.43",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                9
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "0_0_0_object_43.001_defaultMat.001_0"
+        },
+        {
+            "children" : [
+                0
+            ],
+            "name" : "0_0_0_object_43.001"
+        },
+        {
+            "name" : "Object_9"
+        },
+        {
+            "children" : [
+                2
+            ],
+            "name" : "Camera",
+            "rotation" : [
+                -0.21255727112293243,
+                0.9047970175743103,
+                -0.08438930660486221,
+                0.3592216968536377
+            ],
+            "scale" : [
+                999.9999389648438,
+                999.9998779296875,
+                999.9999389648438
+            ],
+            "translation" : [
+                7481.130859375,
+                5343.6650390625,
+                6507.64013671875
+            ]
+        },
+        {
+            "name" : "Object_7"
+        },
+        {
+            "children" : [
+                4
+            ],
+            "name" : "Object_6",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ]
+        },
+        {
+            "children" : [
+                5
+            ],
+            "name" : "Lamp",
+            "rotation" : [
+                0.1690756380558014,
+                0.7558803558349609,
+                -0.27217134833335876,
+                0.570947527885437
+            ],
+            "scale" : [
+                1000,
+                999.9998779296875,
+                999.9998779296875
+            ],
+            "translation" : [
+                4076.24560546875,
+                5903.86181640625,
+                -1005.453857421875
+            ]
+        },
+        {
+            "children" : [
+                1,
+                3,
+                6
+            ],
+            "name" : "RootNode"
+        },
+        {
+            "children" : [
+                7
+            ],
+            "name" : "5dd72571a481422180e1e5c75cdb5717.fbx",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ]
+        },
+        {
+            "children" : [
+                8
+            ],
+            "name" : "Sketchfab_model",
+            "rotation" : [
+                -1,
+                0,
+                0,
+                2.220446049250313e-16
+            ],
+            "scale" : [
+                0.0010000000474974513,
+                0.0010000000474974513,
+                0.0010000000474974513
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "defaultMat.001",
+            "normalTexture" : {
+                "index" : 0
+            },
+            "occlusionTexture" : {
+                "index" : 1,
+                "strength" : 0.6785442233085632
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 2
+                },
+                "metallicFactor" : 0,
+                "metallicRoughnessTexture" : {
+                    "index" : 1
+                }
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "0_0_0_object_43.001_defaultMat.001_0",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
+        },
+        {
+            "sampler" : 0,
+            "source" : 2
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "defaultMat.001_normal",
+            "uri" : "defaultMat_001_normal.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "defaultMat.001_metallicRoughness",
+            "uri" : "defaultMat_001_metallicRoughness.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "defaultMat.001_baseColor",
+            "uri" : "defaultMat_001_baseColor.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 9813,
+            "max" : [
+                2750.00244140625,
+                2250,
+                -0.00039952999213710427
+            ],
+            "min" : [
+                -2750,
+                -2250,
+                -273.82501220703125
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 9813,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 9813,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 28668,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 117756,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 117756,
+            "byteOffset" : 117756
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 78504,
+            "byteOffset" : 235512
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 57336,
+            "byteOffset" : 314016
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 371352,
+            "uri" : "ceiling_design.bin"
+        }
+    ]
+}
