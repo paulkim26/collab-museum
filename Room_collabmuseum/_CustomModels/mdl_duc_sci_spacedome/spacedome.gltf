@@ -24,8 +24,8 @@
 			],
 			"scale":[
 				2.052338123321533,
-				2.0523383617401123,
-				2.0523383617401123
+				2.052338123321533,
+				2.052338123321533
 			],
 			"translation":[
 				0,
@@ -72,15 +72,15 @@
 	"images":[
 		{
 			"mimeType":"image/png",
-			"name":"low-angle-shot-mesmerizing-starry-sky",
-			"uri":"textures/low-angle-shot-mesmerizing-starry-sky.png"
+			"name":"tx_chazzyb_starfield_sparkle",
+			"uri":"textures/tx_chazzyb_starfield_sparkle.png"
 		}
 	],
 	"accessors":[
 		{
 			"bufferView":0,
 			"componentType":5126,
-			"count":1044,
+			"count":5832,
 			"max":[
 				0.47302547097206116,
 				-0.0152936652302742,
@@ -96,13 +96,13 @@
 		{
 			"bufferView":1,
 			"componentType":5126,
-			"count":1044,
+			"count":5832,
 			"type":"VEC2"
 		},
 		{
 			"bufferView":2,
 			"componentType":5126,
-			"count":1044,
+			"count":5832,
 			"type":"VEC3"
 		},
 		{
@@ -115,26 +115,26 @@
 	"bufferViews":[
 		{
 			"buffer":0,
-			"byteLength":12528,
+			"byteLength":69984,
 			"byteOffset":0,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":8352,
-			"byteOffset":12528,
+			"byteLength":46656,
+			"byteOffset":69984,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":12528,
-			"byteOffset":20880,
+			"byteLength":69984,
+			"byteOffset":116640,
 			"target":34962
 		},
 		{
 			"buffer":0,
 			"byteLength":11664,
-			"byteOffset":33408,
+			"byteOffset":186624,
 			"target":34963
 		}
 	],
@@ -146,7 +146,7 @@
 	],
 	"buffers":[
 		{
-			"byteLength":45072,
+			"byteLength":198288,
 			"uri":"spacedome.bin"
 		}
 	]
