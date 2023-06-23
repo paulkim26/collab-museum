@@ -1,0 +1,125 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v3.3.27",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "polySurface168_Emission_0",
+            "scale" : [
+                0.009999999776482582,
+                0.010000001639127731,
+                0.010000001639127731
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "emissiveFactor" : [
+                1,
+                1,
+                0.24911494553089142
+            ],
+            "name" : "Emission",
+            "pbrMetallicRoughness" : {
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.6000000238418579
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "polySurface168_Emission_0",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 1560,
+            "max" : [
+                29.761268615722656,
+                2.9002292156219482,
+                -3.9555745124816895
+            ],
+            "min" : [
+                0,
+                -0.46042755246162415,
+                -13.968854904174805
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 1560,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 1560,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 2472,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 18720,
+            "byteOffset" : 0,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 18720,
+            "byteOffset" : 18720,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 12480,
+            "byteOffset" : 37440,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 4944,
+            "byteOffset" : 49920,
+            "target" : 34963
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 54864,
+            "uri" : "bartest_lightstrip1.bin"
+        }
+    ]
+}

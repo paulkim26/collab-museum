@@ -9,8 +9,7 @@
             "name" : "Scene",
             "nodes" : [
                 2,
-                8,
-                12
+                8
             ]
         }
     ],
@@ -83,42 +82,6 @@
                 0,
                 0,
                 0.7071067094802856
-            ]
-        },
-        {
-            "name" : "LP_Book1.001"
-        },
-        {
-            "name" : "LP_displey_case.001"
-        },
-        {
-            "children" : [
-                9,
-                10
-            ],
-            "name" : "Collada visual scene group.002",
-            "rotation" : [
-                0.7071068286895752,
-                0,
-                0,
-                0.7071067094802856
-            ]
-        },
-        {
-            "children" : [
-                11
-            ],
-            "name" : "Sketchfab_model.002",
-            "rotation" : [
-                -0.7071068286895752,
-                0,
-                0,
-                0.7071067094802856
-            ],
-            "translation" : [
-                5,
-                0,
-                0
             ]
         }
     ],
@@ -245,6 +208,18 @@
         },
         {
             "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
+        },
+        {
+            "sampler" : 0,
+            "source" : 2
+        },
+        {
+            "sampler" : 0,
             "source" : 3
         },
         {
@@ -258,18 +233,6 @@
         {
             "sampler" : 0,
             "source" : 6
-        },
-        {
-            "sampler" : 0,
-            "source" : 7
-        },
-        {
-            "sampler" : 0,
-            "source" : 8
-        },
-        {
-            "sampler" : 0,
-            "source" : 9
         }
     ],
     "images" : [
@@ -287,21 +250,6 @@
             "mimeType" : "image/png",
             "name" : "Case_baseColor",
             "uri" : "Case_baseColor.png"
-        },
-        {
-            "mimeType" : "image/png",
-            "name" : "Case_normal-1",
-            "uri" : "Case_normal-1.png"
-        },
-        {
-            "mimeType" : "image/png",
-            "name" : "Case_metallicRoughness-1",
-            "uri" : "Case_metallicRoughness-1.png"
-        },
-        {
-            "mimeType" : "image/png",
-            "name" : "Case_baseColor-1",
-            "uri" : "Case_baseColor-1.png"
         },
         {
             "mimeType" : "image/jpeg",

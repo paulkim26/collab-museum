@@ -1,0 +1,242 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v3.3.27",
+        "version" : "2.0"
+    },
+    "extensionsUsed" : [
+        "KHR_materials_transmission"
+    ],
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Ramazzotti_Atlas_0",
+            "rotation" : [
+                -0.6225708723068237,
+                0.3352695405483246,
+                0.3352695405483246,
+                0.6225706934928894
+            ],
+            "translation" : [
+                -0.005161285400390625,
+                0,
+                -0.003429412841796875
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "alphaMode" : "BLEND",
+            "extensions" : {
+                "KHR_materials_transmission" : {
+                    "transmissionFactor" : 1,
+                    "transmissionTexture" : {
+                        "index" : 0
+                    }
+                }
+            },
+            "name" : "Atlas",
+            "normalTexture" : {
+                "index" : 1
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 2
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 3
+                }
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Ramazzotti_Atlas_0",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2,
+                        "TEXCOORD_1" : 3,
+                        "TEXCOORD_2" : 4,
+                        "TEXCOORD_3" : 5,
+                        "TEXCOORD_4" : 6
+                    },
+                    "indices" : 7,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
+        },
+        {
+            "sampler" : 0,
+            "source" : 2
+        },
+        {
+            "sampler" : 0,
+            "source" : 3
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "Atlas_transmission",
+            "uri" : "Atlas_transmission.png"
+        },
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "Atlas_normal",
+            "uri" : "Atlas_normal.jpg"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Atlas_baseColor",
+            "uri" : "Atlas_baseColor.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Atlas_metallicRoughness",
+            "uri" : "Atlas_metallicRoughness.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 189,
+            "max" : [
+                3.7801413536071777,
+                3.780142307281494,
+                28.73036766052246
+            ],
+            "min" : [
+                -3.780139923095703,
+                -3.7801387310028076,
+                0
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 189,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 189,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 189,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 189,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 189,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 189,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5123,
+            "count" : 756,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 2268,
+            "byteOffset" : 0,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2268,
+            "byteOffset" : 2268,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1512,
+            "byteOffset" : 4536,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1512,
+            "byteOffset" : 6048,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1512,
+            "byteOffset" : 7560,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1512,
+            "byteOffset" : 9072,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1512,
+            "byteOffset" : 10584,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1512,
+            "byteOffset" : 12096,
+            "target" : 34963
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 13608,
+            "uri" : "20_amaro.bin"
+        }
+    ]
+}

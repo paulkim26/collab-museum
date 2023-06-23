@@ -1,0 +1,242 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v3.3.27",
+        "version" : "2.0"
+    },
+    "extensionsUsed" : [
+        "KHR_materials_transmission"
+    ],
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Malibu_Atlas_0",
+            "rotation" : [
+                -0.42797231674194336,
+                -0.5628852248191833,
+                -0.5628852248191833,
+                0.42797228693962097
+            ],
+            "translation" : [
+                -0.00368499755859375,
+                0,
+                0.024636268615722656
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "alphaMode" : "BLEND",
+            "extensions" : {
+                "KHR_materials_transmission" : {
+                    "transmissionFactor" : 1,
+                    "transmissionTexture" : {
+                        "index" : 0
+                    }
+                }
+            },
+            "name" : "Atlas",
+            "normalTexture" : {
+                "index" : 1
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 2
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 3
+                }
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Malibu_Atlas_0",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2,
+                        "TEXCOORD_1" : 3,
+                        "TEXCOORD_2" : 4,
+                        "TEXCOORD_3" : 5,
+                        "TEXCOORD_4" : 6
+                    },
+                    "indices" : 7,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
+        },
+        {
+            "sampler" : 0,
+            "source" : 2
+        },
+        {
+            "sampler" : 0,
+            "source" : 3
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "Atlas_transmission",
+            "uri" : "Atlas_transmission.png"
+        },
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "Atlas_normal",
+            "uri" : "Atlas_normal.jpg"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Atlas_baseColor",
+            "uri" : "Atlas_baseColor.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Atlas_metallicRoughness",
+            "uri" : "Atlas_metallicRoughness.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 187,
+            "max" : [
+                3.8969545364379883,
+                3.8969545364379883,
+                27.22800064086914
+            ],
+            "min" : [
+                -3.8969550132751465,
+                -3.8969547748565674,
+                0
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 187,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 187,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 187,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 187,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 187,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 187,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5123,
+            "count" : 756,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 2244,
+            "byteOffset" : 0,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2244,
+            "byteOffset" : 2244,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1496,
+            "byteOffset" : 4488,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1496,
+            "byteOffset" : 5984,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1496,
+            "byteOffset" : 7480,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1496,
+            "byteOffset" : 8976,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1496,
+            "byteOffset" : 10472,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1512,
+            "byteOffset" : 11968,
+            "target" : 34963
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 13480,
+            "uri" : "20_rum_malibu.bin"
+        }
+    ]
+}

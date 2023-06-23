@@ -1,0 +1,152 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v3.3.27",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Material2.850",
+            "rotation" : [
+                -0.701057493686676,
+                -0.09229597449302673,
+                -0.09229595214128494,
+                0.7010573148727417
+            ],
+            "scale" : [
+                0.04106113314628601,
+                0.04106113314628601,
+                0.041061121970415115
+            ],
+            "translation" : [
+                3.814697265625e-06,
+                3.814697265625e-06,
+                -1.239776611328125e-05
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "name" : "laphroaigQuarterCask_bottle",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 0
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.6000000238418579
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Material2.850",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "laphroaigQuarterCask_bottle_baseColor",
+            "uri" : "laphroaigQuarterCask_bottle_baseColor.jpg"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 660,
+            "max" : [
+                40.6417236328125,
+                40.724609375,
+                139.0009765625
+            ],
+            "min" : [
+                -40.7144775390625,
+                -40.631591796875,
+                -206.0955810546875
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 660,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 660,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 3936,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 7920,
+            "byteOffset" : 0,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 7920,
+            "byteOffset" : 7920,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 5280,
+            "byteOffset" : 15840,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 7872,
+            "byteOffset" : 21120,
+            "target" : 34963
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 28992,
+            "uri" : "bottle_laphroaig_from_barbar.bin"
+        }
+    ]
+}

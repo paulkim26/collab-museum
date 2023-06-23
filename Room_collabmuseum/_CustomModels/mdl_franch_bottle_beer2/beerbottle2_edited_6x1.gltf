@@ -1,0 +1,885 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v3.3.27",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                4,
+                9,
+                14,
+                19,
+                24,
+                29
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "beerbottle_beerbottle_blinn_0",
+            "rotation" : [
+                0,
+                0,
+                0.03552461788058281,
+                0.9993687868118286
+            ]
+        },
+        {
+            "children" : [
+                0
+            ],
+            "name" : "beerbottle",
+            "rotation" : [
+                0.0658472329378128,
+                0.7040342092514038,
+                -0.7040342092514038,
+                0.0658472329378128
+            ],
+            "scale" : [
+                5.34513521194458,
+                5.34513521194458,
+                5.34513521194458
+            ]
+        },
+        {
+            "children" : [
+                1
+            ],
+            "name" : "RootNode"
+        },
+        {
+            "children" : [
+                2
+            ],
+            "name" : "0491431f1db948f79ed56fa85275ba4a.fbx",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ]
+        },
+        {
+            "children" : [
+                3
+            ],
+            "name" : "Sketchfab_model",
+            "rotation" : [
+                -0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ]
+        },
+        {
+            "mesh" : 1,
+            "name" : "beerbottle_beerbottle_blinn_0.001",
+            "rotation" : [
+                0,
+                0,
+                0.03552461788058281,
+                0.9993687868118286
+            ]
+        },
+        {
+            "children" : [
+                5
+            ],
+            "name" : "beerbottle.001",
+            "rotation" : [
+                0.0658472329378128,
+                0.7040342092514038,
+                -0.7040342092514038,
+                0.0658472329378128
+            ],
+            "scale" : [
+                5.34513521194458,
+                5.34513521194458,
+                5.34513521194458
+            ]
+        },
+        {
+            "children" : [
+                6
+            ],
+            "name" : "RootNode.001"
+        },
+        {
+            "children" : [
+                7
+            ],
+            "name" : "0491431f1db948f79ed56fa85275ba4a.fbx.001",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ]
+        },
+        {
+            "children" : [
+                8
+            ],
+            "name" : "Sketchfab_model.001",
+            "rotation" : [
+                -0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ],
+            "translation" : [
+                7,
+                0,
+                0
+            ]
+        },
+        {
+            "mesh" : 2,
+            "name" : "beerbottle_beerbottle_blinn_0.002",
+            "rotation" : [
+                0,
+                0,
+                0.03552461788058281,
+                0.9993687868118286
+            ]
+        },
+        {
+            "children" : [
+                10
+            ],
+            "name" : "beerbottle.002",
+            "rotation" : [
+                0.0658472329378128,
+                0.7040342092514038,
+                -0.7040342092514038,
+                0.0658472329378128
+            ],
+            "scale" : [
+                5.34513521194458,
+                5.34513521194458,
+                5.34513521194458
+            ]
+        },
+        {
+            "children" : [
+                11
+            ],
+            "name" : "RootNode.002"
+        },
+        {
+            "children" : [
+                12
+            ],
+            "name" : "0491431f1db948f79ed56fa85275ba4a.fbx.002",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ]
+        },
+        {
+            "children" : [
+                13
+            ],
+            "name" : "Sketchfab_model.002",
+            "rotation" : [
+                -0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ],
+            "translation" : [
+                14,
+                0,
+                0
+            ]
+        },
+        {
+            "mesh" : 3,
+            "name" : "beerbottle_beerbottle_blinn_0.003",
+            "rotation" : [
+                0,
+                0,
+                0.03552461788058281,
+                0.9993687868118286
+            ]
+        },
+        {
+            "children" : [
+                15
+            ],
+            "name" : "beerbottle.003",
+            "rotation" : [
+                0.0658472329378128,
+                0.7040342092514038,
+                -0.7040342092514038,
+                0.0658472329378128
+            ],
+            "scale" : [
+                5.34513521194458,
+                5.34513521194458,
+                5.34513521194458
+            ]
+        },
+        {
+            "children" : [
+                16
+            ],
+            "name" : "RootNode.003"
+        },
+        {
+            "children" : [
+                17
+            ],
+            "name" : "0491431f1db948f79ed56fa85275ba4a.fbx.003",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ]
+        },
+        {
+            "children" : [
+                18
+            ],
+            "name" : "Sketchfab_model.003",
+            "rotation" : [
+                -0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ],
+            "translation" : [
+                21,
+                0,
+                0
+            ]
+        },
+        {
+            "mesh" : 4,
+            "name" : "beerbottle_beerbottle_blinn_0.004",
+            "rotation" : [
+                0,
+                0,
+                0.03552461788058281,
+                0.9993687868118286
+            ]
+        },
+        {
+            "children" : [
+                20
+            ],
+            "name" : "beerbottle.004",
+            "rotation" : [
+                0.0658472329378128,
+                0.7040342092514038,
+                -0.7040342092514038,
+                0.0658472329378128
+            ],
+            "scale" : [
+                5.34513521194458,
+                5.34513521194458,
+                5.34513521194458
+            ]
+        },
+        {
+            "children" : [
+                21
+            ],
+            "name" : "RootNode.004"
+        },
+        {
+            "children" : [
+                22
+            ],
+            "name" : "0491431f1db948f79ed56fa85275ba4a.fbx.004",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ]
+        },
+        {
+            "children" : [
+                23
+            ],
+            "name" : "Sketchfab_model.004",
+            "rotation" : [
+                -0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ],
+            "translation" : [
+                28,
+                0,
+                0
+            ]
+        },
+        {
+            "mesh" : 5,
+            "name" : "beerbottle_beerbottle_blinn_0.005",
+            "rotation" : [
+                0,
+                0,
+                0.03552461788058281,
+                0.9993687868118286
+            ]
+        },
+        {
+            "children" : [
+                25
+            ],
+            "name" : "beerbottle.005",
+            "rotation" : [
+                0.0658472329378128,
+                0.7040342092514038,
+                -0.7040342092514038,
+                0.0658472329378128
+            ],
+            "scale" : [
+                5.34513521194458,
+                5.34513521194458,
+                5.34513521194458
+            ]
+        },
+        {
+            "children" : [
+                26
+            ],
+            "name" : "RootNode.005"
+        },
+        {
+            "children" : [
+                27
+            ],
+            "name" : "0491431f1db948f79ed56fa85275ba4a.fbx.005",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ],
+            "translation" : [
+                3.814697265625e-06,
+                0,
+                0
+            ]
+        },
+        {
+            "children" : [
+                28
+            ],
+            "name" : "Sketchfab_model.005",
+            "rotation" : [
+                -0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ],
+            "translation" : [
+                35,
+                0,
+                0
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "beerbottle_blinn",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 0
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.15000000596046448
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "beerbottle_blinn.001",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 1
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.15000000596046448
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "beerbottle_blinn.002",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 2
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.15000000596046448
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "beerbottle_blinn.003",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 3
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.15000000596046448
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "beerbottle_blinn.004",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 4
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.15000000596046448
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "beerbottle_blinn.005",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 5
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.15000000596046448
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "beerbottle_beerbottle_blinn_0",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        },
+        {
+            "name" : "beerbottle_beerbottle_blinn_0.001",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6
+                    },
+                    "indices" : 3,
+                    "material" : 1
+                }
+            ]
+        },
+        {
+            "name" : "beerbottle_beerbottle_blinn_0.002",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 7,
+                        "NORMAL" : 8,
+                        "TEXCOORD_0" : 9
+                    },
+                    "indices" : 3,
+                    "material" : 2
+                }
+            ]
+        },
+        {
+            "name" : "beerbottle_beerbottle_blinn_0.003",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 10,
+                        "NORMAL" : 11,
+                        "TEXCOORD_0" : 12
+                    },
+                    "indices" : 3,
+                    "material" : 3
+                }
+            ]
+        },
+        {
+            "name" : "beerbottle_beerbottle_blinn_0.004",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 13,
+                        "NORMAL" : 14,
+                        "TEXCOORD_0" : 15
+                    },
+                    "indices" : 3,
+                    "material" : 4
+                }
+            ]
+        },
+        {
+            "name" : "beerbottle_beerbottle_blinn_0.005",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 16,
+                        "NORMAL" : 17,
+                        "TEXCOORD_0" : 18
+                    },
+                    "indices" : 3,
+                    "material" : 5
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 0
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "beerbottle_blinn_baseColor",
+            "uri" : "beerbottle_blinn_baseColor.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 631,
+            "max" : [
+                0.5590017437934875,
+                0.5590016841888428,
+                9.860761315262648e-32
+            ],
+            "min" : [
+                -0.5590017437934875,
+                -0.5590016841888428,
+                -4.307674407958984
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 631,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 631,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 2793,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 631,
+            "max" : [
+                0.5590017437934875,
+                0.5590016841888428,
+                9.860761315262648e-32
+            ],
+            "min" : [
+                -0.5590017437934875,
+                -0.5590016841888428,
+                -4.307674407958984
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 631,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 631,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5126,
+            "count" : 631,
+            "max" : [
+                0.5590017437934875,
+                0.5590016841888428,
+                9.860761315262648e-32
+            ],
+            "min" : [
+                -0.5590017437934875,
+                -0.5590016841888428,
+                -4.307674407958984
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 8,
+            "componentType" : 5126,
+            "count" : 631,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 9,
+            "componentType" : 5126,
+            "count" : 631,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 10,
+            "componentType" : 5126,
+            "count" : 631,
+            "max" : [
+                0.5590017437934875,
+                0.5590016841888428,
+                9.860761315262648e-32
+            ],
+            "min" : [
+                -0.5590017437934875,
+                -0.5590016841888428,
+                -4.307674407958984
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 11,
+            "componentType" : 5126,
+            "count" : 631,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 12,
+            "componentType" : 5126,
+            "count" : 631,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 13,
+            "componentType" : 5126,
+            "count" : 631,
+            "max" : [
+                0.5590017437934875,
+                0.5590016841888428,
+                9.860761315262648e-32
+            ],
+            "min" : [
+                -0.5590017437934875,
+                -0.5590016841888428,
+                -4.307674407958984
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 14,
+            "componentType" : 5126,
+            "count" : 631,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 15,
+            "componentType" : 5126,
+            "count" : 631,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 16,
+            "componentType" : 5126,
+            "count" : 631,
+            "max" : [
+                0.5590017437934875,
+                0.5590016841888428,
+                9.860761315262648e-32
+            ],
+            "min" : [
+                -0.5590017437934875,
+                -0.5590016841888428,
+                -4.307674407958984
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 17,
+            "componentType" : 5126,
+            "count" : 631,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 18,
+            "componentType" : 5126,
+            "count" : 631,
+            "type" : "VEC2"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 7572,
+            "byteOffset" : 0,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 7572,
+            "byteOffset" : 7572,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 5048,
+            "byteOffset" : 15144,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 5586,
+            "byteOffset" : 20192,
+            "target" : 34963
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 7572,
+            "byteOffset" : 25780,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 7572,
+            "byteOffset" : 33352,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 5048,
+            "byteOffset" : 40924,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 7572,
+            "byteOffset" : 45972,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 7572,
+            "byteOffset" : 53544,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 5048,
+            "byteOffset" : 61116,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 7572,
+            "byteOffset" : 66164,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 7572,
+            "byteOffset" : 73736,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 5048,
+            "byteOffset" : 81308,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 7572,
+            "byteOffset" : 86356,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 7572,
+            "byteOffset" : 93928,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 5048,
+            "byteOffset" : 101500,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 7572,
+            "byteOffset" : 106548,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 7572,
+            "byteOffset" : 114120,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 5048,
+            "byteOffset" : 121692,
+            "target" : 34962
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 126740,
+            "uri" : "beerbottle2_edited_6x1.bin"
+        }
+    ]
+}

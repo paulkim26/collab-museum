@@ -1,0 +1,185 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v3.3.27",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "pCylinder6_Test_0.004",
+            "rotation" : [
+                -0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ],
+            "translation" : [
+                0,
+                35.363494873046875,
+                0
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "Test",
+            "normalTexture" : {
+                "index" : 0
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 1
+                },
+                "metallicFactor" : 0.29439786076545715,
+                "metallicRoughnessTexture" : {
+                    "index" : 2
+                },
+                "roughnessFactor" : 0.9590319991111755
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "pCylinder6_Test_0.004",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2,
+                        "TEXCOORD_1" : 3
+                    },
+                    "indices" : 4,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
+        },
+        {
+            "sampler" : 0,
+            "source" : 2
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "Test_normal",
+            "uri" : "Test_normal.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Test_baseColor",
+            "uri" : "Test_baseColor.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Test_metallicRoughness",
+            "uri" : "Test_metallicRoughness.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 1000,
+            "max" : [
+                6.8558349609375,
+                6.944808483123779,
+                30.09813690185547
+            ],
+            "min" : [
+                -7.1441650390625,
+                -7.05520486831665,
+                -35.19034194946289
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 1000,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 1000,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 1000,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5123,
+            "count" : 4380,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 12000,
+            "byteOffset" : 0,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 12000,
+            "byteOffset" : 12000,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 8000,
+            "byteOffset" : 24000,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 8000,
+            "byteOffset" : 32000,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 8760,
+            "byteOffset" : 40000,
+            "target" : 34963
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 48760,
+            "uri" : "winebottle4.bin"
+        }
+    ]
+}

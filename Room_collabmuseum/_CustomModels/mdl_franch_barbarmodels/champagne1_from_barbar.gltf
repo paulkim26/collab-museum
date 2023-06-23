@@ -1,0 +1,152 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v3.3.27",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Material2.852",
+            "rotation" : [
+                -0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ],
+            "scale" : [
+                0.03850000724196434,
+                0.03850001469254494,
+                0.03850000351667404
+            ],
+            "translation" : [
+                0,
+                7.62939453125e-06,
+                -1.185912151413504e-05
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "name" : "champagne-louis-roederer-brut-premier",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 0
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.6000000238418579
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Material2.852",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "champagne-louis-roederer-brut-premier_baseColor",
+            "uri" : "champagne-louis-roederer-brut-premier_baseColor.jpg"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 2229,
+            "max" : [
+                50.1910400390625,
+                50.20068359375,
+                144.052001953125
+            ],
+            "min" : [
+                -50.2896728515625,
+                -50.280029296875,
+                -294.66455078125
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 2229,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 2229,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 5172,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 26748,
+            "byteOffset" : 0,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 26748,
+            "byteOffset" : 26748,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 17832,
+            "byteOffset" : 53496,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 10344,
+            "byteOffset" : 71328,
+            "target" : 34963
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 81672,
+            "uri" : "champagne1_from_barbar.bin"
+        }
+    ]
+}

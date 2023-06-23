@@ -1,0 +1,227 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v3.3.27",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                4
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Whiskey_Material.002_0",
+            "rotation" : [
+                0,
+                0,
+                0.3389151692390442,
+                0.9408169388771057
+            ],
+            "translation" : [
+                0,
+                -12.636787414550781,
+                17.84735679626465
+            ]
+        },
+        {
+            "children" : [
+                0
+            ],
+            "name" : "Whiskey",
+            "rotation" : [
+                -0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ],
+            "scale" : [
+                2.5400004386901855,
+                2.5399997234344482,
+                2.539999485015869
+            ],
+            "translation" : [
+                -2.8610231765924254e-06,
+                0,
+                -32.09743881225586
+            ]
+        },
+        {
+            "children" : [
+                1
+            ],
+            "name" : "RootNode"
+        },
+        {
+            "children" : [
+                2
+            ],
+            "name" : "98b52da63fcc447a86c7ebb2983f88bc.fbx",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ],
+            "scale" : [
+                0.010000000707805157,
+                0.009999999776482582,
+                0.010000000707805157
+            ]
+        },
+        {
+            "children" : [
+                3
+            ],
+            "name" : "Sketchfab_model",
+            "rotation" : [
+                -0.6656674146652222,
+                -0.23850959539413452,
+                -0.23850959539413452,
+                0.6656674742698669
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "Material.002",
+            "normalTexture" : {
+                "index" : 0
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 1
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 2
+                }
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Whiskey_Material.002_0",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
+        },
+        {
+            "sampler" : 0,
+            "source" : 2
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "Material_002_normal",
+            "uri" : "Material_002_normal.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Material_002_baseColor",
+            "uri" : "Material_002_baseColor.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Material_002_metallicRoughness",
+            "uri" : "Material_002_metallicRoughness.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 666,
+            "max" : [
+                4.020468711853027,
+                4.031976699829102,
+                10.056201934814453
+            ],
+            "min" : [
+                -4.097609996795654,
+                -4.086101531982422,
+                -17.894670486450195
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 666,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 666,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 1668,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 7992,
+            "byteOffset" : 0,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 7992,
+            "byteOffset" : 7992,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 5328,
+            "byteOffset" : 15984,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 3336,
+            "byteOffset" : 21312,
+            "target" : 34963
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 24648,
+            "uri" : "whiskey_bottle_lowpoly.bin"
+        }
+    ]
+}

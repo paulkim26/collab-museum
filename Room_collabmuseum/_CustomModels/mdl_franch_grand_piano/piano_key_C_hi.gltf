@@ -1,0 +1,148 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v3.3.27",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "defaultMaterial.028"
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "piano_key_white.006",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 0
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 1
+                },
+                "roughnessFactor" : 0.5
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "defaultMaterial.302",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "piano_key_white_baseColor",
+            "uri" : "piano_key_white_baseColor.jpg"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "piano_key_white_metallicRoughness",
+            "uri" : "piano_key_white_metallicRoughness.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 65,
+            "max" : [
+                0.49705934524536133,
+                0.5402125120162964,
+                -5.289632827043533e-05
+            ],
+            "min" : [
+                0.0012328475713729858,
+                0.0004686713218688965,
+                -3.286104440689087
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 65,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 65,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 99,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 780,
+            "byteOffset" : 0,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 780,
+            "byteOffset" : 780,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 520,
+            "byteOffset" : 1560,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 198,
+            "byteOffset" : 2080,
+            "target" : 34963
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 2280,
+            "uri" : "piano_key_C_hi.bin"
+        }
+    ]
+}

@@ -1,0 +1,178 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v3.3.27",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                4
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "geo1_MAT_Prop_Beverage_DeKuyper_ButterscotchSchnapps_0"
+        },
+        {
+            "children" : [
+                0
+            ],
+            "name" : "geo1"
+        },
+        {
+            "children" : [
+                1
+            ],
+            "name" : "RootNode"
+        },
+        {
+            "children" : [
+                2
+            ],
+            "name" : "mesh.fbx",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ],
+            "scale" : [
+                0.009999999776482582,
+                0.010000000707805157,
+                0.010000000707805157
+            ]
+        },
+        {
+            "children" : [
+                3
+            ],
+            "name" : "Sketchfab_model",
+            "rotation" : [
+                -0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "MAT_Prop_Beverage_DeKuyper_ButterscotchSchnapps",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 0
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.9577051401138306
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "geo1_MAT_Prop_Beverage_DeKuyper_ButterscotchSchnapps_0",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "MAT_Prop_Beverage_DeKuyper_ButterscotchSchnapps_baseColor",
+            "uri" : "MAT_Prop_Beverage_DeKuyper_ButterscotchSchnapps_baseColor.jpg"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 403,
+            "max" : [
+                0.04666639491915703,
+                0.27810415625572205,
+                0.04771855100989342
+            ],
+            "min" : [
+                -0.048289649188518524,
+                2.73126206593588e-05,
+                -0.04741740599274635
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 403,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 403,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 1893,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 4836,
+            "byteOffset" : 0,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 4836,
+            "byteOffset" : 4836,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 3224,
+            "byteOffset" : 9672,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 3786,
+            "byteOffset" : 12896,
+            "target" : 34963
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 16684,
+            "uri" : "scnhapps_edited.bin"
+        }
+    ]
+}

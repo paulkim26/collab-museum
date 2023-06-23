@@ -1,0 +1,242 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v3.3.27",
+        "version" : "2.0"
+    },
+    "extensionsUsed" : [
+        "KHR_materials_transmission"
+    ],
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Cointreau_Atlas_0",
+            "rotation" : [
+                -0.6727574467658997,
+                -0.2177097052335739,
+                -0.21770969033241272,
+                0.6727573275566101
+            ],
+            "translation" : [
+                0.00695037841796875,
+                0,
+                -0.015338897705078125
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "alphaMode" : "BLEND",
+            "extensions" : {
+                "KHR_materials_transmission" : {
+                    "transmissionFactor" : 1,
+                    "transmissionTexture" : {
+                        "index" : 0
+                    }
+                }
+            },
+            "name" : "Atlas",
+            "normalTexture" : {
+                "index" : 1
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 2
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 3
+                }
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Cointreau_Atlas_0",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2,
+                        "TEXCOORD_1" : 3,
+                        "TEXCOORD_2" : 4,
+                        "TEXCOORD_3" : 5,
+                        "TEXCOORD_4" : 6
+                    },
+                    "indices" : 7,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
+        },
+        {
+            "sampler" : 0,
+            "source" : 2
+        },
+        {
+            "sampler" : 0,
+            "source" : 3
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "Atlas_transmission",
+            "uri" : "Atlas_transmission.png"
+        },
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "Atlas_normal",
+            "uri" : "Atlas_normal.jpg"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Atlas_baseColor",
+            "uri" : "Atlas_baseColor.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Atlas_metallicRoughness",
+            "uri" : "Atlas_metallicRoughness.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 187,
+            "max" : [
+                5.264712810516357,
+                5.264713287353516,
+                20.106948852539062
+            ],
+            "min" : [
+                -5.264712810516357,
+                -5.264712810516357,
+                0
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 187,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 187,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 187,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 187,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 187,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 187,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5123,
+            "count" : 702,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 2244,
+            "byteOffset" : 0,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2244,
+            "byteOffset" : 2244,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1496,
+            "byteOffset" : 4488,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1496,
+            "byteOffset" : 5984,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1496,
+            "byteOffset" : 7480,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1496,
+            "byteOffset" : 8976,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1496,
+            "byteOffset" : 10472,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1404,
+            "byteOffset" : 11968,
+            "target" : 34963
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 13372,
+            "uri" : "20_cointreau.bin"
+        }
+    ]
+}
