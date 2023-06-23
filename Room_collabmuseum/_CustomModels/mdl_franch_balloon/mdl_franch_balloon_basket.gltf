@@ -1,0 +1,181 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v3.3.27",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "balloon_basket",
+            "rotation" : [
+                -0.7012453079223633,
+                0.09085629880428314,
+                0.09085630625486374,
+                0.7012455463409424
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "baloon",
+            "normalTexture" : {
+                "index" : 0
+            },
+            "occlusionTexture" : {
+                "index" : 1
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 2
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 1
+                }
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "hot_air_baloon_baloon_0.002",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2,
+                        "TEXCOORD_1" : 3
+                    },
+                    "indices" : 4,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
+        },
+        {
+            "sampler" : 0,
+            "source" : 2
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "baloon_normal",
+            "uri" : "baloon_normal.jpg"
+        },
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "baloon_metallicRoughness",
+            "uri" : "baloon_metallicRoughness.jpg"
+        },
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "baloon_baseColor",
+            "uri" : "baloon_baseColor.jpg"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 182,
+            "max" : [
+                0.7534072399139404,
+                0.753915548324585,
+                1.1227526664733887
+            ],
+            "min" : [
+                -0.7632848620414734,
+                -0.7627764940261841,
+                -2.8133392333984375e-05
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 182,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 182,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 182,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5123,
+            "count" : 660,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 2184,
+            "byteOffset" : 0,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2184,
+            "byteOffset" : 2184,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1456,
+            "byteOffset" : 4368,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1456,
+            "byteOffset" : 5824,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1320,
+            "byteOffset" : 7280,
+            "target" : 34963
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 8600,
+            "uri" : "mdl_franch_balloon_basket.bin"
+        }
+    ]
+}
