@@ -1,0 +1,1377 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v3.3.27",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                10,
+                16,
+                22,
+                28,
+                34,
+                40
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "name" : "Object_10",
+            "translation" : [
+                -1.5148892998695374e-05,
+                -2.7411733753979206e-06,
+                0
+            ]
+        },
+        {
+            "children" : [
+                0
+            ],
+            "name" : "Camera",
+            "rotation" : [
+                -0.02485012635588646,
+                0.6880770325660706,
+                -0.02527724578976631,
+                0.7247713804244995
+            ],
+            "translation" : [
+                -0.2642485499382019,
+                32.0720329284668,
+                125.59191131591797
+            ]
+        },
+        {
+            "name" : "Object_13",
+            "translation" : [
+                0,
+                0,
+                -1.52587890625e-05
+            ]
+        },
+        {
+            "children" : [
+                2
+            ],
+            "name" : "Object_12",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ],
+            "translation" : [
+                -2.985306127811782e-05,
+                0,
+                1.1444091796875e-05
+            ]
+        },
+        {
+            "children" : [
+                3
+            ],
+            "name" : "Directional Light",
+            "rotation" : [
+                0.4619397521018982,
+                -0.3314136266708374,
+                0.19134169816970825,
+                0.8001031279563904
+            ],
+            "translation" : [
+                -200,
+                200,
+                200
+            ]
+        },
+        {
+            "mesh" : 0,
+            "name" : "GARRAFA_TAMPA_0",
+            "scale" : [
+                0.8977499008178711,
+                1,
+                0.8977499008178711
+            ]
+        },
+        {
+            "mesh" : 1,
+            "name" : "GARRAFA_VIDRO DENTRO_0"
+        },
+        {
+            "children" : [
+                5,
+                6
+            ],
+            "name" : "GARRAFA"
+        },
+        {
+            "children" : [
+                1,
+                4,
+                7
+            ],
+            "name" : "RootNode"
+        },
+        {
+            "children" : [
+                8
+            ],
+            "name" : "69f4efd2244c4ee491fe76712f05d084.fbx",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ]
+        },
+        {
+            "children" : [
+                9
+            ],
+            "name" : "Sketchfab_model",
+            "rotation" : [
+                -0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ]
+        },
+        {
+            "mesh" : 2,
+            "name" : "GARRAFA_TAMPA_0.001",
+            "scale" : [
+                0.8977499008178711,
+                1,
+                0.8977499008178711
+            ]
+        },
+        {
+            "mesh" : 3,
+            "name" : "GARRAFA_VIDRO DENTRO_0.001"
+        },
+        {
+            "children" : [
+                11,
+                12
+            ],
+            "name" : "GARRAFA.001"
+        },
+        {
+            "children" : [
+                13
+            ],
+            "name" : "RootNode.001"
+        },
+        {
+            "children" : [
+                14
+            ],
+            "name" : "69f4efd2244c4ee491fe76712f05d084.fbx.001",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ]
+        },
+        {
+            "children" : [
+                15
+            ],
+            "name" : "Sketchfab_model.001",
+            "rotation" : [
+                -0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ],
+            "translation" : [
+                0,
+                0,
+                -13
+            ]
+        },
+        {
+            "mesh" : 4,
+            "name" : "GARRAFA_TAMPA_0.002",
+            "scale" : [
+                0.8977499008178711,
+                1,
+                0.8977499008178711
+            ]
+        },
+        {
+            "mesh" : 5,
+            "name" : "GARRAFA_VIDRO DENTRO_0.002"
+        },
+        {
+            "children" : [
+                17,
+                18
+            ],
+            "name" : "GARRAFA.002"
+        },
+        {
+            "children" : [
+                19
+            ],
+            "name" : "RootNode.002"
+        },
+        {
+            "children" : [
+                20
+            ],
+            "name" : "69f4efd2244c4ee491fe76712f05d084.fbx.002",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ]
+        },
+        {
+            "children" : [
+                21
+            ],
+            "name" : "Sketchfab_model.002",
+            "rotation" : [
+                -0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ],
+            "translation" : [
+                0,
+                0,
+                -26
+            ]
+        },
+        {
+            "mesh" : 6,
+            "name" : "GARRAFA_TAMPA_0.003",
+            "scale" : [
+                0.8977499008178711,
+                1,
+                0.8977499008178711
+            ]
+        },
+        {
+            "mesh" : 7,
+            "name" : "GARRAFA_VIDRO DENTRO_0.003"
+        },
+        {
+            "children" : [
+                23,
+                24
+            ],
+            "name" : "GARRAFA.003"
+        },
+        {
+            "children" : [
+                25
+            ],
+            "name" : "RootNode.003"
+        },
+        {
+            "children" : [
+                26
+            ],
+            "name" : "69f4efd2244c4ee491fe76712f05d084.fbx.003",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ],
+            "translation" : [
+                0,
+                3.814697265625e-06,
+                0
+            ]
+        },
+        {
+            "children" : [
+                27
+            ],
+            "name" : "Sketchfab_model.003",
+            "rotation" : [
+                -0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ],
+            "translation" : [
+                0,
+                0,
+                -39
+            ]
+        },
+        {
+            "mesh" : 8,
+            "name" : "GARRAFA_TAMPA_0.004",
+            "scale" : [
+                0.8977499008178711,
+                1,
+                0.8977499008178711
+            ],
+            "translation" : [
+                0,
+                0,
+                -3.814697265625e-06
+            ]
+        },
+        {
+            "mesh" : 9,
+            "name" : "GARRAFA_VIDRO DENTRO_0.004",
+            "translation" : [
+                0,
+                0,
+                -3.814697265625e-06
+            ]
+        },
+        {
+            "children" : [
+                29,
+                30
+            ],
+            "name" : "GARRAFA.004",
+            "translation" : [
+                0,
+                0,
+                -3.814697265625e-06
+            ]
+        },
+        {
+            "children" : [
+                31
+            ],
+            "name" : "RootNode.004",
+            "translation" : [
+                0,
+                0,
+                -3.814697265625e-06
+            ]
+        },
+        {
+            "children" : [
+                32
+            ],
+            "name" : "69f4efd2244c4ee491fe76712f05d084.fbx.004",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ],
+            "translation" : [
+                0,
+                3.814697265625e-06,
+                0
+            ]
+        },
+        {
+            "children" : [
+                33
+            ],
+            "name" : "Sketchfab_model.004",
+            "rotation" : [
+                -0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ],
+            "translation" : [
+                0,
+                0,
+                -52
+            ]
+        },
+        {
+            "mesh" : 10,
+            "name" : "GARRAFA_TAMPA_0.005",
+            "scale" : [
+                0.8977499008178711,
+                1,
+                0.8977499008178711
+            ]
+        },
+        {
+            "mesh" : 11,
+            "name" : "GARRAFA_VIDRO DENTRO_0.005"
+        },
+        {
+            "children" : [
+                35,
+                36
+            ],
+            "name" : "GARRAFA.005"
+        },
+        {
+            "children" : [
+                37
+            ],
+            "name" : "RootNode.005"
+        },
+        {
+            "children" : [
+                38
+            ],
+            "name" : "69f4efd2244c4ee491fe76712f05d084.fbx.005",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ],
+            "translation" : [
+                0,
+                7.62939453125e-06,
+                0
+            ]
+        },
+        {
+            "children" : [
+                39
+            ],
+            "name" : "Sketchfab_model.005",
+            "rotation" : [
+                -0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ],
+            "translation" : [
+                0,
+                0,
+                -65
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "TAMPA",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.05406663194298744,
+                    0.07323525846004486,
+                    0.053010717034339905,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.1537143737077713
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "VIDRO_DENTRO",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.08489249646663666,
+                    0.20886099338531494,
+                    0.054420601576566696,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.6000000238418579
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "TAMPA.001",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.05406663194298744,
+                    0.07323525846004486,
+                    0.053010717034339905,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.1537143737077713
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "VIDRO_DENTRO.001",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.08489249646663666,
+                    0.20886099338531494,
+                    0.054420601576566696,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.6000000238418579
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "TAMPA.002",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.05406663194298744,
+                    0.07323525846004486,
+                    0.053010717034339905,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.1537143737077713
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "VIDRO_DENTRO.002",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.08489249646663666,
+                    0.20886099338531494,
+                    0.054420601576566696,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.6000000238418579
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "TAMPA.003",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.05406663194298744,
+                    0.07323525846004486,
+                    0.053010717034339905,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.1537143737077713
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "VIDRO_DENTRO.003",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.08489249646663666,
+                    0.20886099338531494,
+                    0.054420601576566696,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.6000000238418579
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "TAMPA.004",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.05406663194298744,
+                    0.07323525846004486,
+                    0.053010717034339905,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.1537143737077713
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "VIDRO_DENTRO.004",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.08489249646663666,
+                    0.20886099338531494,
+                    0.054420601576566696,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.6000000238418579
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "TAMPA.005",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.05406663194298744,
+                    0.07323525846004486,
+                    0.053010717034339905,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.1537143737077713
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "VIDRO_DENTRO.005",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.08489249646663666,
+                    0.20886099338531494,
+                    0.054420601576566696,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.6000000238418579
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "GARRAFA_TAMPA_0",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        },
+        {
+            "name" : "GARRAFA_VIDRO DENTRO_0",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6
+                    },
+                    "indices" : 7,
+                    "material" : 1
+                }
+            ]
+        },
+        {
+            "name" : "GARRAFA_TAMPA_0.001",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 8,
+                        "NORMAL" : 9,
+                        "TEXCOORD_0" : 10
+                    },
+                    "indices" : 3,
+                    "material" : 2
+                }
+            ]
+        },
+        {
+            "name" : "GARRAFA_VIDRO DENTRO_0.001",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 11,
+                        "NORMAL" : 12,
+                        "TEXCOORD_0" : 13
+                    },
+                    "indices" : 7,
+                    "material" : 3
+                }
+            ]
+        },
+        {
+            "name" : "GARRAFA_TAMPA_0.002",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 14,
+                        "NORMAL" : 15,
+                        "TEXCOORD_0" : 16
+                    },
+                    "indices" : 3,
+                    "material" : 4
+                }
+            ]
+        },
+        {
+            "name" : "GARRAFA_VIDRO DENTRO_0.002",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 17,
+                        "NORMAL" : 18,
+                        "TEXCOORD_0" : 19
+                    },
+                    "indices" : 7,
+                    "material" : 5
+                }
+            ]
+        },
+        {
+            "name" : "GARRAFA_TAMPA_0.003",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 20,
+                        "NORMAL" : 21,
+                        "TEXCOORD_0" : 22
+                    },
+                    "indices" : 3,
+                    "material" : 6
+                }
+            ]
+        },
+        {
+            "name" : "GARRAFA_VIDRO DENTRO_0.003",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 23,
+                        "NORMAL" : 24,
+                        "TEXCOORD_0" : 25
+                    },
+                    "indices" : 7,
+                    "material" : 7
+                }
+            ]
+        },
+        {
+            "name" : "GARRAFA_TAMPA_0.004",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 26,
+                        "NORMAL" : 27,
+                        "TEXCOORD_0" : 28
+                    },
+                    "indices" : 3,
+                    "material" : 8
+                }
+            ]
+        },
+        {
+            "name" : "GARRAFA_VIDRO DENTRO_0.004",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 29,
+                        "NORMAL" : 30,
+                        "TEXCOORD_0" : 31
+                    },
+                    "indices" : 7,
+                    "material" : 9
+                }
+            ]
+        },
+        {
+            "name" : "GARRAFA_TAMPA_0.005",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 32,
+                        "NORMAL" : 33,
+                        "TEXCOORD_0" : 34
+                    },
+                    "indices" : 3,
+                    "material" : 10
+                }
+            ]
+        },
+        {
+            "name" : "GARRAFA_VIDRO DENTRO_0.005",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 35,
+                        "NORMAL" : 36,
+                        "TEXCOORD_0" : 37
+                    },
+                    "indices" : 7,
+                    "material" : 11
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 242,
+            "max" : [
+                2.8328561782836914,
+                47.33775329589844,
+                2.8339884281158447
+            ],
+            "min" : [
+                -2.833251714706421,
+                46.270694732666016,
+                -2.929421901702881
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 242,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 242,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 876,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 450,
+            "max" : [
+                5.80617618560791,
+                47.23524475097656,
+                5.80617618560791
+            ],
+            "min" : [
+                -5.80617618560791,
+                -0.05324188247323036,
+                -5.80617618560791
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 450,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 450,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5123,
+            "count" : 2112,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 8,
+            "componentType" : 5126,
+            "count" : 242,
+            "max" : [
+                2.8328561782836914,
+                47.33775329589844,
+                2.8339884281158447
+            ],
+            "min" : [
+                -2.833251714706421,
+                46.270694732666016,
+                -2.929421901702881
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 9,
+            "componentType" : 5126,
+            "count" : 242,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 10,
+            "componentType" : 5126,
+            "count" : 242,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 11,
+            "componentType" : 5126,
+            "count" : 450,
+            "max" : [
+                5.80617618560791,
+                47.23524475097656,
+                5.80617618560791
+            ],
+            "min" : [
+                -5.80617618560791,
+                -0.05324188247323036,
+                -5.80617618560791
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 12,
+            "componentType" : 5126,
+            "count" : 450,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 13,
+            "componentType" : 5126,
+            "count" : 450,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 14,
+            "componentType" : 5126,
+            "count" : 242,
+            "max" : [
+                2.8328561782836914,
+                47.33775329589844,
+                2.8339884281158447
+            ],
+            "min" : [
+                -2.833251714706421,
+                46.270694732666016,
+                -2.929421901702881
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 15,
+            "componentType" : 5126,
+            "count" : 242,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 16,
+            "componentType" : 5126,
+            "count" : 242,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 17,
+            "componentType" : 5126,
+            "count" : 450,
+            "max" : [
+                5.80617618560791,
+                47.23524475097656,
+                5.80617618560791
+            ],
+            "min" : [
+                -5.80617618560791,
+                -0.05324188247323036,
+                -5.80617618560791
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 18,
+            "componentType" : 5126,
+            "count" : 450,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 19,
+            "componentType" : 5126,
+            "count" : 450,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 20,
+            "componentType" : 5126,
+            "count" : 242,
+            "max" : [
+                2.8328561782836914,
+                47.33775329589844,
+                2.8339884281158447
+            ],
+            "min" : [
+                -2.833251714706421,
+                46.270694732666016,
+                -2.929421901702881
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 21,
+            "componentType" : 5126,
+            "count" : 242,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 22,
+            "componentType" : 5126,
+            "count" : 242,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 23,
+            "componentType" : 5126,
+            "count" : 450,
+            "max" : [
+                5.80617618560791,
+                47.23524475097656,
+                5.80617618560791
+            ],
+            "min" : [
+                -5.80617618560791,
+                -0.05324188247323036,
+                -5.80617618560791
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 24,
+            "componentType" : 5126,
+            "count" : 450,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 25,
+            "componentType" : 5126,
+            "count" : 450,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 26,
+            "componentType" : 5126,
+            "count" : 242,
+            "max" : [
+                2.8328561782836914,
+                47.33775329589844,
+                2.8339884281158447
+            ],
+            "min" : [
+                -2.833251714706421,
+                46.270694732666016,
+                -2.929421901702881
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 27,
+            "componentType" : 5126,
+            "count" : 242,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 28,
+            "componentType" : 5126,
+            "count" : 242,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 29,
+            "componentType" : 5126,
+            "count" : 450,
+            "max" : [
+                5.80617618560791,
+                47.23524475097656,
+                5.80617618560791
+            ],
+            "min" : [
+                -5.80617618560791,
+                -0.05324188247323036,
+                -5.80617618560791
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 30,
+            "componentType" : 5126,
+            "count" : 450,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 31,
+            "componentType" : 5126,
+            "count" : 450,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 32,
+            "componentType" : 5126,
+            "count" : 242,
+            "max" : [
+                2.8328561782836914,
+                47.33775329589844,
+                2.8339884281158447
+            ],
+            "min" : [
+                -2.833251714706421,
+                46.270694732666016,
+                -2.929421901702881
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 33,
+            "componentType" : 5126,
+            "count" : 242,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 34,
+            "componentType" : 5126,
+            "count" : 242,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 35,
+            "componentType" : 5126,
+            "count" : 450,
+            "max" : [
+                5.80617618560791,
+                47.23524475097656,
+                5.80617618560791
+            ],
+            "min" : [
+                -5.80617618560791,
+                -0.05324188247323036,
+                -5.80617618560791
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 36,
+            "componentType" : 5126,
+            "count" : 450,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 37,
+            "componentType" : 5126,
+            "count" : 450,
+            "type" : "VEC2"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 2904,
+            "byteOffset" : 0,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2904,
+            "byteOffset" : 2904,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1936,
+            "byteOffset" : 5808,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1752,
+            "byteOffset" : 7744,
+            "target" : 34963
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 5400,
+            "byteOffset" : 9496,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 5400,
+            "byteOffset" : 14896,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 3600,
+            "byteOffset" : 20296,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 4224,
+            "byteOffset" : 23896,
+            "target" : 34963
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2904,
+            "byteOffset" : 28120,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2904,
+            "byteOffset" : 31024,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1936,
+            "byteOffset" : 33928,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 5400,
+            "byteOffset" : 35864,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 5400,
+            "byteOffset" : 41264,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 3600,
+            "byteOffset" : 46664,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2904,
+            "byteOffset" : 50264,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2904,
+            "byteOffset" : 53168,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1936,
+            "byteOffset" : 56072,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 5400,
+            "byteOffset" : 58008,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 5400,
+            "byteOffset" : 63408,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 3600,
+            "byteOffset" : 68808,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2904,
+            "byteOffset" : 72408,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2904,
+            "byteOffset" : 75312,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1936,
+            "byteOffset" : 78216,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 5400,
+            "byteOffset" : 80152,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 5400,
+            "byteOffset" : 85552,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 3600,
+            "byteOffset" : 90952,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2904,
+            "byteOffset" : 94552,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2904,
+            "byteOffset" : 97456,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1936,
+            "byteOffset" : 100360,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 5400,
+            "byteOffset" : 102296,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 5400,
+            "byteOffset" : 107696,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 3600,
+            "byteOffset" : 113096,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2904,
+            "byteOffset" : 116696,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2904,
+            "byteOffset" : 119600,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1936,
+            "byteOffset" : 122504,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 5400,
+            "byteOffset" : 124440,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 5400,
+            "byteOffset" : 129840,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 3600,
+            "byteOffset" : 135240,
+            "target" : 34962
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 138840,
+            "uri" : "beerbottle_edited_6x1.bin"
+        }
+    ]
+}

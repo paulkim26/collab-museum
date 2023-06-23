@@ -1,0 +1,242 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v3.3.27",
+        "version" : "2.0"
+    },
+    "extensionsUsed" : [
+        "KHR_materials_transmission"
+    ],
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Crema_di_Limoncino_Atlas_0",
+            "rotation" : [
+                -0.6980966329574585,
+                -0.11252222955226898,
+                -0.1125221699476242,
+                0.6980964541435242
+            ],
+            "translation" : [
+                0.028764724731445312,
+                0,
+                -0.007208636496216059
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "alphaMode" : "BLEND",
+            "extensions" : {
+                "KHR_materials_transmission" : {
+                    "transmissionFactor" : 1,
+                    "transmissionTexture" : {
+                        "index" : 0
+                    }
+                }
+            },
+            "name" : "Atlas",
+            "normalTexture" : {
+                "index" : 1
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 2
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 3
+                }
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Crema_di_Limoncino_Atlas_0",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2,
+                        "TEXCOORD_1" : 3,
+                        "TEXCOORD_2" : 4,
+                        "TEXCOORD_3" : 5,
+                        "TEXCOORD_4" : 6
+                    },
+                    "indices" : 7,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
+        },
+        {
+            "sampler" : 0,
+            "source" : 2
+        },
+        {
+            "sampler" : 0,
+            "source" : 3
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "Atlas_transmission",
+            "uri" : "Atlas_transmission.png"
+        },
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "Atlas_normal",
+            "uri" : "Atlas_normal.jpg"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Atlas_baseColor",
+            "uri" : "Atlas_baseColor.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Atlas_metallicRoughness",
+            "uri" : "Atlas_metallicRoughness.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 199,
+            "max" : [
+                2.836629867553711,
+                2.83663010597229,
+                36.009559631347656
+            ],
+            "min" : [
+                -2.836629867553711,
+                -2.836629867553711,
+                3.814697265625e-06
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 199,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 199,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 199,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 199,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 199,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 199,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5123,
+            "count" : 900,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 2388,
+            "byteOffset" : 0,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2388,
+            "byteOffset" : 2388,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1592,
+            "byteOffset" : 4776,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1592,
+            "byteOffset" : 6368,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1592,
+            "byteOffset" : 7960,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1592,
+            "byteOffset" : 9552,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1592,
+            "byteOffset" : 11144,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1800,
+            "byteOffset" : 12736,
+            "target" : 34963
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 14536,
+            "uri" : "20_limoncello.bin"
+        }
+    ]
+}

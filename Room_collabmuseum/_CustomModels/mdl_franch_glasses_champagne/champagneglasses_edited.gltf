@@ -1,0 +1,377 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v3.3.27",
+        "version" : "2.0"
+    },
+    "extensionsUsed" : [
+        "KHR_materials_clearcoat"
+    ],
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                23
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "name" : "PM3D_Cylinder3D12",
+            "translation" : [
+                0,
+                0,
+                -7.350950241088867
+            ]
+        },
+        {
+            "mesh" : 0,
+            "name" : "PM3D_Cylinder3D6_PM3D_Cylinder3D6_0"
+        },
+        {
+            "children" : [
+                1
+            ],
+            "name" : "PM3D_Cylinder3D6"
+        },
+        {
+            "name" : "PM3D_Cylinder3D7",
+            "translation" : [
+                0,
+                0,
+                -3.745314359664917
+            ]
+        },
+        {
+            "children" : [
+                0,
+                2,
+                3
+            ],
+            "name" : "group1"
+        },
+        {
+            "name" : "PM3D_Cylinder3D13",
+            "translation" : [
+                0,
+                0,
+                -7.350950241088867
+            ]
+        },
+        {
+            "name" : "PM3D_Cylinder3D6.001"
+        },
+        {
+            "name" : "PM3D_Cylinder3D8",
+            "translation" : [
+                0,
+                0,
+                -3.745314359664917
+            ]
+        },
+        {
+            "children" : [
+                5,
+                6,
+                7
+            ],
+            "name" : "group2",
+            "translation" : [
+                3.448451280593872,
+                0,
+                0
+            ]
+        },
+        {
+            "name" : "PM3D_Cylinder3D14",
+            "translation" : [
+                0,
+                0,
+                -7.350950241088867
+            ]
+        },
+        {
+            "name" : "PM3D_Cylinder3D6.002"
+        },
+        {
+            "name" : "PM3D_Cylinder3D9",
+            "translation" : [
+                0,
+                0,
+                -3.745314359664917
+            ]
+        },
+        {
+            "children" : [
+                9,
+                10,
+                11
+            ],
+            "name" : "group3",
+            "translation" : [
+                6.896902561187744,
+                0,
+                0
+            ]
+        },
+        {
+            "name" : "PM3D_Cylinder3D10",
+            "translation" : [
+                0,
+                0,
+                -3.745314359664917
+            ]
+        },
+        {
+            "name" : "PM3D_Cylinder3D15",
+            "translation" : [
+                0,
+                0,
+                -7.350950241088867
+            ]
+        },
+        {
+            "name" : "PM3D_Cylinder3D6.003"
+        },
+        {
+            "children" : [
+                13,
+                14,
+                15
+            ],
+            "name" : "group4",
+            "translation" : [
+                10.345353126525879,
+                0,
+                0
+            ]
+        },
+        {
+            "name" : "PM3D_Cylinder3D11",
+            "translation" : [
+                0,
+                0,
+                -3.745314359664917
+            ]
+        },
+        {
+            "name" : "PM3D_Cylinder3D16",
+            "translation" : [
+                0,
+                0,
+                -7.350950241088867
+            ]
+        },
+        {
+            "name" : "PM3D_Cylinder3D6.004"
+        },
+        {
+            "children" : [
+                17,
+                18,
+                19
+            ],
+            "name" : "group5",
+            "translation" : [
+                13.793805122375488,
+                0,
+                0
+            ]
+        },
+        {
+            "children" : [
+                4,
+                8,
+                12,
+                16,
+                20
+            ],
+            "name" : "RootNode"
+        },
+        {
+            "children" : [
+                21
+            ],
+            "name" : "Glassesv2.fbx",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ],
+            "scale" : [
+                0.010000000707805157,
+                0.010000000707805157,
+                0.010000000707805157
+            ]
+        },
+        {
+            "children" : [
+                22
+            ],
+            "name" : "Sketchfab_model",
+            "rotation" : [
+                -0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ],
+            "scale" : [
+                1.055049180984497,
+                1.0550493001937866,
+                1.0550493001937866
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "alphaMode" : "BLEND",
+            "doubleSided" : true,
+            "extensions" : {
+                "KHR_materials_clearcoat" : {
+                    "clearcoatFactor" : 1,
+                    "clearcoatRoughnessFactor" : 0.07161926478147507
+                }
+            },
+            "name" : "PM3D_Cylinder3D6",
+            "normalTexture" : {
+                "index" : 0
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    1,
+                    1,
+                    1,
+                    0.24228645861148834
+                ],
+                "baseColorTexture" : {
+                    "index" : 1
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 2
+                }
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "PM3D_Cylinder3D6_PM3D_Cylinder3D6_0",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
+        },
+        {
+            "sampler" : 0,
+            "source" : 2
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "PM3D_Cylinder3D6_normal",
+            "uri" : "PM3D_Cylinder3D6_normal.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "PM3D_Cylinder3D6_baseColor",
+            "uri" : "PM3D_Cylinder3D6_baseColor.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "PM3D_Cylinder3D6_metallicRoughness",
+            "uri" : "PM3D_Cylinder3D6_metallicRoughness.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 9170,
+            "max" : [
+                15.372206687927246,
+                8.323383331298828,
+                1.5210599899291992
+            ],
+            "min" : [
+                -1.580517053604126,
+                -6.472186088562012,
+                -5.383171081542969
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 9170,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 9170,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 39900,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 110040,
+            "byteOffset" : 0,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 110040,
+            "byteOffset" : 110040,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 73360,
+            "byteOffset" : 220080,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 79800,
+            "byteOffset" : 293440,
+            "target" : 34963
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 373240,
+            "uri" : "champagneglasses_edited.bin"
+        }
+    ]
+}

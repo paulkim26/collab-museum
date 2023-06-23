@@ -1,0 +1,152 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v3.3.27",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Material2.785",
+            "rotation" : [
+                -0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ],
+            "scale" : [
+                0.02380000613629818,
+                0.023800009861588478,
+                0.02380000427365303
+            ],
+            "translation" : [
+                -1.52587890625e-05,
+                -1.52587890625e-05,
+                3.3996711863437667e-06
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "name" : "zeller_schwarze_katz_sekt",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 0
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.6000000238418579
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Material2.785",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "zeller_schwarze_katz_sekt_baseColor",
+            "uri" : "zeller_schwarze_katz_sekt_baseColor.jpg"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 2017,
+            "max" : [
+                94.550537109375,
+                94.5576171875,
+                279.415283203125
+            ],
+            "min" : [
+                -94.54345703125,
+                -94.53662109375,
+                -457.6025390625
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 2017,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 2017,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 4458,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 24204,
+            "byteOffset" : 0,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 24204,
+            "byteOffset" : 24204,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 16136,
+            "byteOffset" : 48408,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 8916,
+            "byteOffset" : 64544,
+            "target" : 34963
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 73460,
+            "uri" : "champagne3_from_barbar.bin"
+        }
+    ]
+}

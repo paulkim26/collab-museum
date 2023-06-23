@@ -1,0 +1,471 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v3.3.27",
+        "version" : "2.0"
+    },
+    "extensionsUsed" : [
+        "KHR_materials_transmission"
+    ],
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                4
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Cylinder_Paper_0",
+            "translation" : [
+                -2.4899351596832275,
+                2.8889987468719482,
+                3.124864339828491
+            ]
+        },
+        {
+            "children" : [
+                0
+            ],
+            "name" : "Cylinder",
+            "rotation" : [
+                -0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ],
+            "scale" : [
+                100,
+                99.99999237060547,
+                99.99999237060547
+            ],
+            "translation" : [
+                248.99351501464844,
+                24.697547912597656,
+                288.89990234375
+            ]
+        },
+        {
+            "children" : [
+                1
+            ],
+            "name" : "RootNode"
+        },
+        {
+            "children" : [
+                2
+            ],
+            "name" : "Wine.fbx",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ]
+        },
+        {
+            "children" : [
+                3
+            ],
+            "name" : "Sketchfab_model",
+            "rotation" : [
+                -0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "alphaMode" : "BLEND",
+            "doubleSided" : true,
+            "name" : "Paper",
+            "normalTexture" : {
+                "index" : 0
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 1
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 2
+                }
+            }
+        },
+        {
+            "alphaMode" : "BLEND",
+            "doubleSided" : true,
+            "extensions" : {
+                "KHR_materials_transmission" : {
+                    "transmissionFactor" : 1,
+                    "transmissionTexture" : {
+                        "index" : 3
+                    }
+                }
+            },
+            "name" : "Glass",
+            "normalTexture" : {
+                "index" : 4
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.006158516276627779,
+                    0.07149847596883774,
+                    0.0059265256859362125,
+                    1
+                ],
+                "baseColorTexture" : {
+                    "index" : 5
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 6
+                },
+                "roughnessFactor" : 0.1289394050836563
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "RedPaper",
+            "normalTexture" : {
+                "index" : 7
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.7046969532966614,
+                    0.7046969532966614,
+                    0.7046969532966614,
+                    1
+                ],
+                "baseColorTexture" : {
+                    "index" : 8
+                },
+                "metallicFactor" : 0.6865151524543762,
+                "metallicRoughnessTexture" : {
+                    "index" : 9
+                },
+                "roughnessFactor" : 0.3168181777000427
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Cylinder_Paper_0",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                },
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6
+                    },
+                    "indices" : 7,
+                    "material" : 1
+                },
+                {
+                    "attributes" : {
+                        "POSITION" : 8,
+                        "NORMAL" : 9,
+                        "TEXCOORD_0" : 10
+                    },
+                    "indices" : 11,
+                    "material" : 2
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
+        },
+        {
+            "sampler" : 0,
+            "source" : 2
+        },
+        {
+            "sampler" : 0,
+            "source" : 3
+        },
+        {
+            "sampler" : 0,
+            "source" : 4
+        },
+        {
+            "sampler" : 0,
+            "source" : 5
+        },
+        {
+            "sampler" : 0,
+            "source" : 6
+        },
+        {
+            "sampler" : 0,
+            "source" : 7
+        },
+        {
+            "sampler" : 0,
+            "source" : 8
+        },
+        {
+            "sampler" : 0,
+            "source" : 9
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "Paper_normal",
+            "uri" : "Paper_normal.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Paper_baseColor",
+            "uri" : "Paper_baseColor.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Paper_metallicRoughness",
+            "uri" : "Paper_metallicRoughness.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Glass_transmission",
+            "uri" : "Glass_transmission.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Glass_normal",
+            "uri" : "Glass_normal.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Glass_baseColor",
+            "uri" : "Glass_baseColor.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Glass_metallicRoughness",
+            "uri" : "Glass_metallicRoughness.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "RedPaper_normal",
+            "uri" : "RedPaper_normal.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "RedPaper_baseColor",
+            "uri" : "RedPaper_baseColor.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "RedPaper_metallicRoughness",
+            "uri" : "RedPaper_metallicRoughness.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 42,
+            "max" : [
+                0.5890833735466003,
+                0.5487157106399536,
+                -1.6493184566497803
+            ],
+            "min" : [
+                -0.6044288277626038,
+                -0.5463594198226929,
+                -3.055341958999634
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 42,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 42,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 108,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 297,
+            "max" : [
+                0.5859095454216003,
+                0.593828558921814,
+                0.6441459655761719
+            ],
+            "min" : [
+                -0.599391520023346,
+                -0.5914725065231323,
+                -3.3731963634490967
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 297,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 297,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5123,
+            "count" : 1386,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 8,
+            "componentType" : 5126,
+            "count" : 464,
+            "max" : [
+                0.2302992045879364,
+                0.23821820318698883,
+                1.4309935569763184
+            ],
+            "min" : [
+                -0.24378088116645813,
+                -0.2358618825674057,
+                0.5904948711395264
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 9,
+            "componentType" : 5126,
+            "count" : 464,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 10,
+            "componentType" : 5126,
+            "count" : 464,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 11,
+            "componentType" : 5123,
+            "count" : 714,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 504,
+            "byteOffset" : 0,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 504,
+            "byteOffset" : 504,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 336,
+            "byteOffset" : 1008,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 216,
+            "byteOffset" : 1344,
+            "target" : 34963
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 3564,
+            "byteOffset" : 1560,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 3564,
+            "byteOffset" : 5124,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2376,
+            "byteOffset" : 8688,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2772,
+            "byteOffset" : 11064,
+            "target" : 34963
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 5568,
+            "byteOffset" : 13836,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 5568,
+            "byteOffset" : 19404,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 3712,
+            "byteOffset" : 24972,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1428,
+            "byteOffset" : 28684,
+            "target" : 34963
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 30112,
+            "uri" : "winebottle_Talay.bin"
+        }
+    ]
+}

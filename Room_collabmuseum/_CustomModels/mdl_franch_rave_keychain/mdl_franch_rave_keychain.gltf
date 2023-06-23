@@ -1,0 +1,381 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v3.3.27",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                13
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "name" : "Circle_low",
+            "rotation" : [
+                -0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ],
+            "translation" : [
+                0.6415607333183289,
+                24.088092803955078,
+                -0.6287820935249329
+            ]
+        },
+        {
+            "name" : "Ellipse1_low",
+            "scale" : [
+                0.755702018737793,
+                0.7750439643859863,
+                0.7750439643859863
+            ],
+            "translation" : [
+                1.1466727256774902,
+                34.76646423339844,
+                0.06498098373413086
+            ]
+        },
+        {
+            "name" : "Ellipse2_low",
+            "rotation" : [
+                0,
+                0.21617913246154785,
+                0,
+                0.9763537645339966
+            ],
+            "scale" : [
+                0.755702018737793,
+                0.7750439643859863,
+                0.7750439643859863
+            ],
+            "translation" : [
+                1.1466727256774902,
+                38.5406608581543,
+                0.06498098373413086
+            ]
+        },
+        {
+            "name" : "Ellipse_low",
+            "scale" : [
+                0.755702018737793,
+                0.7750439643859863,
+                0.7750439643859863
+            ],
+            "translation" : [
+                1.1466727256774902,
+                30.990230560302734,
+                0.06498098373413086
+            ]
+        },
+        {
+            "name" : "horse_low",
+            "rotation" : [
+                -0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ],
+            "translation" : [
+                1.0108802318572998,
+                12.753151893615723,
+                0.6580215096473694
+            ]
+        },
+        {
+            "name" : "shoe_low",
+            "rotation" : [
+                -0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ],
+            "translation" : [
+                -8.977714538574219,
+                10.86196231842041,
+                0.06498002260923386
+            ]
+        },
+        {
+            "mesh" : 0,
+            "name" : "Spring2_low_steel_0",
+            "translation" : [
+                -1.556262493133545,
+                0.043103743344545364,
+                -37.65393829345703
+            ]
+        },
+        {
+            "children" : [
+                6
+            ],
+            "name" : "Spring2_low",
+            "rotation" : [
+                -0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ],
+            "translation" : [
+                1.556262493133545,
+                52.54426574707031,
+                0.04309868440032005
+            ]
+        },
+        {
+            "name" : "Spring3_low",
+            "rotation" : [
+                -0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ],
+            "translation" : [
+                1.431593894958496,
+                27.119407653808594,
+                -0.9239755272865295
+            ]
+        },
+        {
+            "name" : "Spring_low",
+            "rotation" : [
+                -0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ],
+            "translation" : [
+                1.6142796277999878,
+                42.26302719116211,
+                -0.3320842683315277
+            ]
+        },
+        {
+            "name" : "symbol_low",
+            "rotation" : [
+                -0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ],
+            "translation" : [
+                -5.131117820739746,
+                23.81755828857422,
+                0.509071409702301
+            ]
+        },
+        {
+            "children" : [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                7,
+                8,
+                9,
+                10
+            ],
+            "name" : "RootNode"
+        },
+        {
+            "children" : [
+                11
+            ],
+            "name" : "fbdb637708274ed8b274aa6f1e1fc4dd.fbx",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ],
+            "scale" : [
+                0.009999999776482582,
+                0.010000000707805157,
+                0.010000000707805157
+            ]
+        },
+        {
+            "children" : [
+                12
+            ],
+            "name" : "Sketchfab_model",
+            "rotation" : [
+                -0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "steel",
+            "normalTexture" : {
+                "index" : 0
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 1
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 2
+                },
+                "roughnessFactor" : 0.8152405619621277
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Spring2_low_steel_0",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2,
+                        "TEXCOORD_1" : 3,
+                        "TEXCOORD_2" : 4
+                    },
+                    "indices" : 5,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
+        },
+        {
+            "sampler" : 0,
+            "source" : 2
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "steel_normal",
+            "uri" : "steel_normal.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "steel_baseColor",
+            "uri" : "steel_baseColor.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "steel_metallicRoughness",
+            "uri" : "steel_metallicRoughness.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 1926,
+            "max" : [
+                10.974575996398926,
+                2.927647113800049,
+                23.75231170654297
+            ],
+            "min" : [
+                -10.3525972366333,
+                -2.665299892425537,
+                -15.120368957519531
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 1926,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 1926,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 1926,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 1926,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5123,
+            "count" : 8961,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 23112,
+            "byteOffset" : 0,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 23112,
+            "byteOffset" : 23112,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 15408,
+            "byteOffset" : 46224,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 15408,
+            "byteOffset" : 61632,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 15408,
+            "byteOffset" : 77040,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 17922,
+            "byteOffset" : 92448,
+            "target" : 34963
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 110372,
+            "uri" : "mdl_franch_rave_keychain.bin"
+        }
+    ]
+}

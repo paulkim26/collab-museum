@@ -1,0 +1,617 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v3.3.27",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                16
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "name" : "Object_7"
+        },
+        {
+            "children" : [
+                0
+            ],
+            "name" : "Camera",
+            "rotation" : [
+                -0.2125573456287384,
+                0.9047969579696655,
+                -0.08438929170370102,
+                0.35922181606292725
+            ],
+            "scale" : [
+                99.99999237060547,
+                100.00000762939453,
+                99.99999237060547
+            ],
+            "translation" : [
+                735.88916015625,
+                495.8309326171875,
+                692.5791015625
+            ]
+        },
+        {
+            "mesh" : 0,
+            "name" : "Cylinder_Material.002_0"
+        },
+        {
+            "children" : [
+                2
+            ],
+            "name" : "Cylinder",
+            "rotation" : [
+                -0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ],
+            "scale" : [
+                64.35954284667969,
+                64.00074768066406,
+                110.9843521118164
+            ],
+            "translation" : [
+                4.149899482727051,
+                -115.6281967163086,
+                0
+            ]
+        },
+        {
+            "mesh" : 1,
+            "name" : "Cylinder.001_Material.005_0.001"
+        },
+        {
+            "children" : [
+                4
+            ],
+            "name" : "Cylinder.001",
+            "rotation" : [
+                -0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ],
+            "scale" : [
+                33.130680084228516,
+                33.13066864013672,
+                8.839320182800293
+            ],
+            "translation" : [
+                1.0052814483642578,
+                261.6470947265625,
+                -5.341041105566546e-05
+            ]
+        },
+        {
+            "name" : "Cylinder.003",
+            "rotation" : [
+                -0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ],
+            "scale" : [
+                63.115638732910156,
+                62.76378631591797,
+                108.83930969238281
+            ],
+            "translation" : [
+                4.149899482727051,
+                -115.6281967163086,
+                -0.12733978033065796
+            ]
+        },
+        {
+            "mesh" : 2,
+            "name" : "Cylinder.005_Material.007_0"
+        },
+        {
+            "children" : [
+                7
+            ],
+            "name" : "Cylinder.005",
+            "rotation" : [
+                -0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ],
+            "scale" : [
+                64.98571014404297,
+                67.15768432617188,
+                112.06416320800781
+            ],
+            "translation" : [
+                4.149899482727051,
+                -123.54358673095703,
+                -61.49400329589844
+            ]
+        },
+        {
+            "name" : "Object_5"
+        },
+        {
+            "children" : [
+                9
+            ],
+            "name" : "Object_4",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ]
+        },
+        {
+            "children" : [
+                10
+            ],
+            "name" : "Light",
+            "rotation" : [
+                -0.6356038451194763,
+                -0.21045257151126862,
+                0.7419275641441345,
+                0.03551211208105087
+            ],
+            "scale" : [
+                100.00003051757812,
+                100.0000228881836,
+                100.00001525878906
+            ],
+            "translation" : [
+                407.6245422363281,
+                590.38623046875,
+                -100.54539489746094
+            ]
+        },
+        {
+            "mesh" : 3,
+            "name" : "stock-vector-vintage-mexican-tequila-label-for-bottle-illus"
+        },
+        {
+            "children" : [
+                12
+            ],
+            "name" : "stock-vector-vintage-mexican-tequila-label-for-bottle-illustrat",
+            "rotation" : [
+                0,
+                -0.008246628567576408,
+                0,
+                0.999966025352478
+            ],
+            "scale" : [
+                134.09457397460938,
+                134.09457397460938,
+                134.09457397460938
+            ],
+            "translation" : [
+                4.149899482727051,
+                -103.50305938720703,
+                64.46782684326172
+            ]
+        },
+        {
+            "children" : [
+                1,
+                3,
+                5,
+                6,
+                8,
+                11,
+                13
+            ],
+            "name" : "RootNode"
+        },
+        {
+            "children" : [
+                14
+            ],
+            "name" : "ce940a6d612a4a1f842f4a721c7d8e4a.fbx",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ]
+        },
+        {
+            "children" : [
+                15
+            ],
+            "name" : "Sketchfab_model",
+            "rotation" : [
+                -0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "Material.002",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "metallicFactor" : 0.6948962807655334,
+                "roughnessFactor" : 0
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "Material.005",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "metallicFactor" : 0.7861049771308899,
+                "roughnessFactor" : 0.3719901144504547
+            }
+        },
+        {
+            "doubleSided" : true,
+            "emissiveFactor" : [
+                0.003904589917510748,
+                0.003904589917510748,
+                0.003904589917510748
+            ],
+            "name" : "Material.007",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "metallicFactor" : 0.3239808976650238,
+                "roughnessFactor" : 0.29965856671333313
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "stock-vector-vintage-mexican-tequila-label-for-bottle-illustrat",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 0
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.8211145401000977
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Cylinder_Material.002_0",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        },
+        {
+            "name" : "Cylinder.001_Material.005_0.001",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6
+                    },
+                    "indices" : 7,
+                    "material" : 1
+                }
+            ]
+        },
+        {
+            "name" : "Cylinder.005_Material.007_0",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 8,
+                        "NORMAL" : 9,
+                        "TEXCOORD_0" : 10
+                    },
+                    "indices" : 11,
+                    "material" : 2
+                }
+            ]
+        },
+        {
+            "name" : "stock-vector-vintage-mexican-tequila-label-for-bottle-illustrat",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 12,
+                        "NORMAL" : 13,
+                        "TEXCOORD_0" : 14
+                    },
+                    "indices" : 15,
+                    "material" : 3
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "stock-vector-vintage-mexican-tequila-label-for-bottle-illustrat_baseColor",
+            "uri" : "stock-vector-vintage-mexican-tequila-label-for-bottle-illustrat_baseColor.jpg"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 4544,
+            "max" : [
+                1.0084770917892456,
+                1.008476734161377,
+                3.3849806785583496
+            ],
+            "min" : [
+                -1.0084770917892456,
+                -1.0084770917892456,
+                -0.9821652770042419
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 4544,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 4544,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 9876,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 1637,
+            "max" : [
+                0.9624724984169006,
+                0.8767428994178772,
+                3.1864917278289795
+            ],
+            "min" : [
+                -0.7712059020996094,
+                -0.8670099377632141,
+                -0.9891869425773621
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 1637,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 1637,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5123,
+            "count" : 3966,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 8,
+            "componentType" : 5126,
+            "count" : 128,
+            "max" : [
+                0.3233579099178314,
+                -0.5979121923446655,
+                3.3758137226104736
+            ],
+            "min" : [
+                -0.3233572542667389,
+                -1.2446269989013672,
+                1.709436297416687
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 9,
+            "componentType" : 5126,
+            "count" : 128,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 10,
+            "componentType" : 5126,
+            "count" : 128,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 11,
+            "componentType" : 5123,
+            "count" : 192,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 12,
+            "componentType" : 5126,
+            "count" : 1506,
+            "max" : [
+                0.3487294912338257,
+                0.500097393989563,
+                0.013953804969787598
+            ],
+            "min" : [
+                -0.3536151647567749,
+                -0.501596212387085,
+                -0.13798007369041443
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 13,
+            "componentType" : 5126,
+            "count" : 1506,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 14,
+            "componentType" : 5126,
+            "count" : 1506,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 15,
+            "componentType" : 5123,
+            "count" : 1530,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 54528,
+            "byteOffset" : 0,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 54528,
+            "byteOffset" : 54528,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 36352,
+            "byteOffset" : 109056,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 19752,
+            "byteOffset" : 145408,
+            "target" : 34963
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 19644,
+            "byteOffset" : 165160,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 19644,
+            "byteOffset" : 184804,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 13096,
+            "byteOffset" : 204448,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 7932,
+            "byteOffset" : 217544,
+            "target" : 34963
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1536,
+            "byteOffset" : 225476,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1536,
+            "byteOffset" : 227012,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1024,
+            "byteOffset" : 228548,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 384,
+            "byteOffset" : 229572,
+            "target" : 34963
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 18072,
+            "byteOffset" : 229956,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 18072,
+            "byteOffset" : 248028,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 12048,
+            "byteOffset" : 266100,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 3060,
+            "byteOffset" : 278148,
+            "target" : 34963
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 281208,
+            "uri" : "tequila_edited.bin"
+        }
+    ]
+}
