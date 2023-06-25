@@ -1,4 +1,4 @@
-token_message_enable = false; --Set this to true when fix is ready
+token_message_enable = true; --Set this to true when fix is ready
 token_count_max = 16;
 
 function collectToken()
