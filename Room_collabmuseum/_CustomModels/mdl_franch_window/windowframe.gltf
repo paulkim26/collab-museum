@@ -1,0 +1,489 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v3.3.27",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                7,
+                12,
+                18
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Line077_med_diffuse_0",
+            "scale" : [
+                1,
+                1,
+                1.3585734367370605
+            ],
+            "translation" : [
+                -3.138427257537842,
+                -7.955066204071045,
+                127.9119873046875
+            ]
+        },
+        {
+            "children" : [
+                0
+            ],
+            "name" : "Line077",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ],
+            "translation" : [
+                3.1384270191192627,
+                95.07490539550781,
+                7.955078125
+            ]
+        },
+        {
+            "name" : "Line078",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ],
+            "translation" : [
+                3.0372307300567627,
+                94.72846984863281,
+                -68.01173400878906
+            ]
+        },
+        {
+            "name" : "Line079",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ],
+            "translation" : [
+                390.6971130371094,
+                95.92486572265625,
+                -207.97850036621094
+            ]
+        },
+        {
+            "children" : [
+                1,
+                2,
+                3
+            ],
+            "name" : "okno2",
+            "rotation" : [
+                -0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ],
+            "scale" : [
+                0.0010114071192219853,
+                0.0010114068863913417,
+                0.0010114068863913417
+            ]
+        },
+        {
+            "children" : [
+                4
+            ],
+            "name" : "RootNode"
+        },
+        {
+            "children" : [
+                5
+            ],
+            "name" : "d2f1dc7f754a418fb82ad713e4addcfa.fbx",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ]
+        },
+        {
+            "children" : [
+                6
+            ],
+            "name" : "Sketchfab_model",
+            "rotation" : [
+                -0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ]
+        },
+        {
+            "name" : "Line079.001",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ],
+            "translation" : [
+                390.6971130371094,
+                95.92489624023438,
+                -207.97850036621094
+            ]
+        },
+        {
+            "children" : [
+                8
+            ],
+            "name" : "okno2.001",
+            "rotation" : [
+                -0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ],
+            "scale" : [
+                0.0010114071192219853,
+                0.0010114068863913417,
+                0.0010114068863913417
+            ]
+        },
+        {
+            "children" : [
+                9
+            ],
+            "name" : "RootNode.001"
+        },
+        {
+            "children" : [
+                10
+            ],
+            "name" : "d2f1dc7f754a418fb82ad713e4addcfa.fbx.001",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ]
+        },
+        {
+            "children" : [
+                11
+            ],
+            "name" : "Sketchfab_model.001",
+            "rotation" : [
+                -0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ],
+            "translation" : [
+                0,
+                0,
+                -0.460320383310318
+            ]
+        },
+        {
+            "mesh" : 1,
+            "name" : "Line077_med_diffuse_0.001",
+            "scale" : [
+                1,
+                1,
+                0.8640773296356201
+            ],
+            "translation" : [
+                -3.1384525299072266,
+                -7.955066204071045,
+                -198.10369873046875
+            ]
+        },
+        {
+            "children" : [
+                13
+            ],
+            "name" : "Line077.001",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ],
+            "translation" : [
+                3.1384270191192627,
+                95.07487487792969,
+                7.955078125
+            ]
+        },
+        {
+            "children" : [
+                14
+            ],
+            "name" : "okno2.002",
+            "rotation" : [
+                -0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ],
+            "scale" : [
+                0.0010114071192219853,
+                0.0010114068863913417,
+                0.0010114068863913417
+            ]
+        },
+        {
+            "children" : [
+                15
+            ],
+            "name" : "RootNode.002"
+        },
+        {
+            "children" : [
+                16
+            ],
+            "name" : "d2f1dc7f754a418fb82ad713e4addcfa.fbx.002",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ]
+        },
+        {
+            "children" : [
+                17
+            ],
+            "name" : "Sketchfab_model.002",
+            "rotation" : [
+                0,
+                -0.7071068286895752,
+                0.7071067094802856,
+                3.0908619663705394e-08
+            ],
+            "scale" : [
+                -0.9999999403953552,
+                -0.9999999403953552,
+                -0.9999999403953552
+            ],
+            "translation" : [
+                0,
+                0,
+                -0.3109026849269867
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "emissiveFactor" : [
+                0.20000000298023224,
+                0.20000000298023224,
+                0.20000000298023224
+            ],
+            "emissiveTexture" : {
+                "index" : 0
+            },
+            "name" : "med_diffuse",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 1
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "med_diffuse.002",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 2
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Line077_med_diffuse_0",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        },
+        {
+            "name" : "Line077_med_diffuse_0.001",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6
+                    },
+                    "indices" : 3,
+                    "material" : 1
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "tx_franch_window_inside",
+            "uri" : "tx_franch_window_inside.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "tx_franch_window_outside",
+            "uri" : "tx_franch_window_outside.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 704,
+            "max" : [
+                444.04876708984375,
+                696.0540771484375,
+                54.73374938964844
+            ],
+            "min" : [
+                -425.8751220703125,
+                -699.55224609375,
+                -12.212509155273438
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 704,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 704,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 807,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 704,
+            "max" : [
+                444.04876708984375,
+                696.0540771484375,
+                157.017578125
+            ],
+            "min" : [
+                -425.8751220703125,
+                -699.55224609375,
+                -35.03529357910156
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 704,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 704,
+            "type" : "VEC2"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 8448,
+            "byteOffset" : 0,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 8448,
+            "byteOffset" : 8448,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 5632,
+            "byteOffset" : 16896,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1614,
+            "byteOffset" : 22528,
+            "target" : 34963
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 8448,
+            "byteOffset" : 24144,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 8448,
+            "byteOffset" : 32592,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 5632,
+            "byteOffset" : 41040,
+            "target" : 34962
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 46672,
+            "uri" : "windowframe.bin"
+        }
+    ]
+}
