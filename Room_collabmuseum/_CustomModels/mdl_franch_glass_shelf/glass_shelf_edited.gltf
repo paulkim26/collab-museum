@@ -8,12 +8,12 @@
         {
             "name" : "Scene",
             "nodes" : [
-                3,
+                2,
+                4,
                 6,
-                9,
-                12,
-                15,
-                18
+                8,
+                10,
+                12
             ]
         }
     ],
@@ -23,99 +23,59 @@
             "name" : "Object_3"
         },
         {
-            "mesh" : 1,
-            "name" : "Object_4"
-        },
-        {
             "children" : [
-                0,
-                1
+                0
             ],
             "name" : "Glass shelf.lwo"
         },
         {
             "children" : [
-                2
+                1
             ],
             "name" : "Sketchfab_model"
         },
         {
-            "mesh" : 2,
-            "name" : "Object_4.001"
+            "name" : "Glass shelf.lwo.001"
         },
         {
             "children" : [
-                4
+                3
             ],
-            "name" : "Glass shelf.lwo.001"
+            "name" : "Sketchfab_model.001"
+        },
+        {
+            "name" : "Glass shelf.lwo.002"
         },
         {
             "children" : [
                 5
             ],
-            "name" : "Sketchfab_model.001"
+            "name" : "Sketchfab_model.002"
         },
         {
-            "mesh" : 3,
-            "name" : "Object_4.002"
+            "name" : "Glass shelf.lwo.003"
         },
         {
             "children" : [
                 7
             ],
-            "name" : "Glass shelf.lwo.002"
-        },
-        {
-            "children" : [
-                8
-            ],
-            "name" : "Sketchfab_model.002"
-        },
-        {
-            "mesh" : 4,
-            "name" : "Object_4.003"
-        },
-        {
-            "children" : [
-                10
-            ],
-            "name" : "Glass shelf.lwo.003"
-        },
-        {
-            "children" : [
-                11
-            ],
             "name" : "Sketchfab_model.003"
         },
         {
-            "mesh" : 5,
-            "name" : "Object_3.001"
-        },
-        {
-            "children" : [
-                13
-            ],
             "name" : "Glass shelf.lwo.004"
         },
         {
             "children" : [
-                14
+                9
             ],
             "name" : "Sketchfab_model.004"
         },
         {
-            "mesh" : 6,
-            "name" : "Object_4.004"
-        },
-        {
-            "children" : [
-                16
-            ],
             "name" : "Glass shelf.lwo.005"
         },
         {
             "children" : [
-                17
+                11
             ],
             "name" : "Sketchfab_model.005"
         }
@@ -232,12 +192,7 @@
                     },
                     "indices" : 3,
                     "material" : 0
-                }
-            ]
-        },
-        {
-            "name" : "Object_2",
-            "primitives" : [
+                },
                 {
                     "attributes" : {
                         "POSITION" : 4,
@@ -246,12 +201,7 @@
                     },
                     "indices" : 7,
                     "material" : 1
-                }
-            ]
-        },
-        {
-            "name" : "Object_2.001",
-            "primitives" : [
+                },
                 {
                     "attributes" : {
                         "POSITION" : 8,
@@ -260,61 +210,41 @@
                     },
                     "indices" : 11,
                     "material" : 2
-                }
-            ]
-        },
-        {
-            "name" : "Object_2.002",
-            "primitives" : [
+                },
                 {
                     "attributes" : {
                         "POSITION" : 12,
                         "NORMAL" : 13,
                         "TEXCOORD_0" : 14
                     },
-                    "indices" : 7,
+                    "indices" : 15,
                     "material" : 3
-                }
-            ]
-        },
-        {
-            "name" : "Object_2.003",
-            "primitives" : [
+                },
                 {
                     "attributes" : {
-                        "POSITION" : 15,
-                        "NORMAL" : 16,
-                        "TEXCOORD_0" : 17
+                        "POSITION" : 16,
+                        "NORMAL" : 17,
+                        "TEXCOORD_0" : 18
                     },
-                    "indices" : 18,
+                    "indices" : 19,
                     "material" : 4
-                }
-            ]
-        },
-        {
-            "name" : "Object_1.001",
-            "primitives" : [
+                },
                 {
                     "attributes" : {
-                        "POSITION" : 19,
-                        "NORMAL" : 20,
-                        "TEXCOORD_0" : 21
+                        "POSITION" : 20,
+                        "NORMAL" : 21,
+                        "TEXCOORD_0" : 22
                     },
-                    "indices" : 3,
+                    "indices" : 23,
                     "material" : 5
-                }
-            ]
-        },
-        {
-            "name" : "Object_2.004",
-            "primitives" : [
+                },
                 {
                     "attributes" : {
-                        "POSITION" : 22,
-                        "NORMAL" : 23,
-                        "TEXCOORD_0" : 24
+                        "POSITION" : 24,
+                        "NORMAL" : 25,
+                        "TEXCOORD_0" : 26
                     },
-                    "indices" : 11,
+                    "indices" : 27,
                     "material" : 6
                 }
             ]
@@ -533,6 +463,12 @@
         },
         {
             "bufferView" : 15,
+            "componentType" : 5123,
+            "count" : 48,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 16,
             "componentType" : 5126,
             "count" : 48,
             "max" : [
@@ -548,25 +484,25 @@
             "type" : "VEC3"
         },
         {
-            "bufferView" : 16,
+            "bufferView" : 17,
             "componentType" : 5126,
             "count" : 48,
             "type" : "VEC3"
         },
         {
-            "bufferView" : 17,
+            "bufferView" : 18,
             "componentType" : 5126,
             "count" : 48,
             "type" : "VEC2"
         },
         {
-            "bufferView" : 18,
+            "bufferView" : 19,
             "componentType" : 5123,
             "count" : 72,
             "type" : "SCALAR"
         },
         {
-            "bufferView" : 19,
+            "bufferView" : 20,
             "componentType" : 5126,
             "count" : 200,
             "max" : [
@@ -582,19 +518,25 @@
             "type" : "VEC3"
         },
         {
-            "bufferView" : 20,
+            "bufferView" : 21,
             "componentType" : 5126,
             "count" : 200,
             "type" : "VEC3"
         },
         {
-            "bufferView" : 21,
+            "bufferView" : 22,
             "componentType" : 5126,
             "count" : 200,
             "type" : "VEC2"
         },
         {
-            "bufferView" : 22,
+            "bufferView" : 23,
+            "componentType" : 5123,
+            "count" : 468,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 24,
             "componentType" : 5126,
             "count" : 48,
             "max" : [
@@ -610,16 +552,22 @@
             "type" : "VEC3"
         },
         {
-            "bufferView" : 23,
+            "bufferView" : 25,
             "componentType" : 5126,
             "count" : 48,
             "type" : "VEC3"
         },
         {
-            "bufferView" : 24,
+            "bufferView" : 26,
             "componentType" : 5126,
             "count" : 48,
             "type" : "VEC2"
+        },
+        {
+            "bufferView" : 27,
+            "componentType" : 5123,
+            "count" : 72,
+            "type" : "SCALAR"
         }
     ],
     "bufferViews" : [
@@ -715,63 +663,81 @@
         },
         {
             "buffer" : 0,
-            "byteLength" : 576,
+            "byteLength" : 96,
             "byteOffset" : 11160,
+            "target" : 34963
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 576,
+            "byteOffset" : 11256,
             "target" : 34962
         },
         {
             "buffer" : 0,
             "byteLength" : 576,
-            "byteOffset" : 11736,
+            "byteOffset" : 11832,
             "target" : 34962
         },
         {
             "buffer" : 0,
             "byteLength" : 384,
-            "byteOffset" : 12312,
+            "byteOffset" : 12408,
             "target" : 34962
         },
         {
             "buffer" : 0,
             "byteLength" : 144,
-            "byteOffset" : 12696,
+            "byteOffset" : 12792,
             "target" : 34963
         },
         {
             "buffer" : 0,
             "byteLength" : 2400,
-            "byteOffset" : 12840,
+            "byteOffset" : 12936,
             "target" : 34962
         },
         {
             "buffer" : 0,
             "byteLength" : 2400,
-            "byteOffset" : 15240,
+            "byteOffset" : 15336,
             "target" : 34962
         },
         {
             "buffer" : 0,
             "byteLength" : 1600,
-            "byteOffset" : 17640,
+            "byteOffset" : 17736,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 936,
+            "byteOffset" : 19336,
+            "target" : 34963
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 576,
+            "byteOffset" : 20272,
             "target" : 34962
         },
         {
             "buffer" : 0,
             "byteLength" : 576,
-            "byteOffset" : 19240,
-            "target" : 34962
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 576,
-            "byteOffset" : 19816,
+            "byteOffset" : 20848,
             "target" : 34962
         },
         {
             "buffer" : 0,
             "byteLength" : 384,
-            "byteOffset" : 20392,
+            "byteOffset" : 21424,
             "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 144,
+            "byteOffset" : 21808,
+            "target" : 34963
         }
     ],
     "samplers" : [
@@ -782,7 +748,7 @@
     ],
     "buffers" : [
         {
-            "byteLength" : 20776,
+            "byteLength" : 21952,
             "uri" : "glass_shelf_edited.bin"
         }
     ]

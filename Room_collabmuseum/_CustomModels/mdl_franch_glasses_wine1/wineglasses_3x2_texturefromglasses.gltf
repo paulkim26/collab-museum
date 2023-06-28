@@ -8,9 +8,9 @@
         {
             "name" : "Scene",
             "nodes" : [
-                20,
-                36,
-                55
+                17,
+                33,
+                50
             ]
         }
     ],
@@ -18,9 +18,9 @@
         {
             "name" : "Object_4",
             "translation" : [
-                2.384185791015625e-06,
+                1.2159347534179688e-05,
                 0,
-                -3.1971601401892258e-06
+                -2.297228320458089e-06
             ]
         },
         {
@@ -41,24 +41,6 @@
             ]
         },
         {
-            "mesh" : 0,
-            "name" : "VINUM EXTREME CHARDONNAY_Glass Basic White #1_0",
-            "rotation" : [
-                0,
-                0,
-                -1,
-                4.371138828673793e-08
-            ],
-            "translation" : [
-                0,
-                227.64340209960938,
-                1.52587890625e-05
-            ]
-        },
-        {
-            "children" : [
-                2
-            ],
             "name" : "VINUM EXTREME CHARDONNAY.003",
             "translation" : [
                 0,
@@ -68,7 +50,7 @@
         },
         {
             "children" : [
-                3
+                2
             ],
             "name" : "VINUM EXTREME CHARDONNAY.002",
             "translation" : [
@@ -79,7 +61,7 @@
         },
         {
             "children" : [
-                4
+                3
             ],
             "name" : "VINUM EXTREME CHARDONNAY.001",
             "translation" : [
@@ -90,7 +72,7 @@
         },
         {
             "children" : [
-                5
+                4
             ],
             "name" : "VINUM EXTREME CHARDONNAY",
             "translation" : [
@@ -100,63 +82,27 @@
             ]
         },
         {
-            "mesh" : 1,
-            "name" : "vitis cabernet_Glass Basic White_0",
-            "rotation" : [
-                0,
-                0,
-                -1,
-                4.371138828673793e-08
-            ],
-            "translation" : [
-                0,
-                259.9791259765625,
-                0
-            ]
-        },
-        {
-            "children" : [
-                7
-            ],
             "name" : "vitis cabernet.003"
         },
         {
             "children" : [
-                8
+                6
             ],
             "name" : "vitis cabernet.002"
         },
         {
             "children" : [
-                9
+                7
             ],
             "name" : "vitis cabernet.001"
         },
         {
             "children" : [
-                10
+                8
             ],
             "name" : "vitis cabernet"
         },
         {
-            "mesh" : 2,
-            "name" : "VITIS RIESLING_Glass Basic White #2_0",
-            "rotation" : [
-                0,
-                0,
-                -1,
-                4.371138828673793e-08
-            ],
-            "translation" : [
-                0,
-                259.9791259765625,
-                -1.52587890625e-05
-            ]
-        },
-        {
-            "children" : [
-                12
-            ],
             "name" : "VITIS RIESLING.003",
             "translation" : [
                 0,
@@ -166,7 +112,7 @@
         },
         {
             "children" : [
-                13
+                10
             ],
             "name" : "VITIS RIESLING.002",
             "translation" : [
@@ -177,7 +123,7 @@
         },
         {
             "children" : [
-                14
+                11
             ],
             "name" : "VITIS RIESLING.001",
             "translation" : [
@@ -188,7 +134,7 @@
         },
         {
             "children" : [
-                15
+                12
             ],
             "name" : "VITIS RIESLING",
             "translation" : [
@@ -199,22 +145,22 @@
         },
         {
             "children" : [
-                6,
-                11,
-                16
+                5,
+                9,
+                13
             ],
             "name" : "Default"
         },
         {
             "children" : [
                 1,
-                17
+                14
             ],
             "name" : "RootNode"
         },
         {
             "children" : [
-                18
+                15
             ],
             "name" : "2b863841e21a48b585e41ebf8bda80c8.fbx",
             "rotation" : [
@@ -226,7 +172,7 @@
         },
         {
             "children" : [
-                19
+                16
             ],
             "name" : "Sketchfab_model",
             "rotation" : [
@@ -251,7 +197,7 @@
         },
         {
             "children" : [
-                21
+                18
             ],
             "name" : "VINUM EXTREME CHARDONNAY.005",
             "translation" : [
@@ -262,7 +208,7 @@
         },
         {
             "children" : [
-                22
+                19
             ],
             "name" : "VINUM EXTREME CHARDONNAY.006",
             "translation" : [
@@ -273,7 +219,7 @@
         },
         {
             "children" : [
-                23
+                20
             ],
             "name" : "VINUM EXTREME CHARDONNAY.007",
             "translation" : [
@@ -287,19 +233,19 @@
         },
         {
             "children" : [
-                25
+                22
             ],
             "name" : "vitis cabernet.005"
         },
         {
             "children" : [
-                26
+                23
             ],
             "name" : "vitis cabernet.006"
         },
         {
             "children" : [
-                27
+                24
             ],
             "name" : "vitis cabernet.007"
         },
@@ -313,7 +259,7 @@
         },
         {
             "children" : [
-                29
+                26
             ],
             "name" : "VITIS RIESLING.005",
             "translation" : [
@@ -324,7 +270,7 @@
         },
         {
             "children" : [
-                30
+                27
             ],
             "name" : "VITIS RIESLING.006",
             "translation" : [
@@ -335,7 +281,7 @@
         },
         {
             "children" : [
-                31
+                28
             ],
             "name" : "VITIS RIESLING.007",
             "translation" : [
@@ -346,21 +292,21 @@
         },
         {
             "children" : [
-                24,
-                28,
-                32
+                21,
+                25,
+                29
             ],
             "name" : "Default.001"
         },
         {
             "children" : [
-                33
+                30
             ],
             "name" : "RootNode.001"
         },
         {
             "children" : [
-                34
+                31
             ],
             "name" : "2b863841e21a48b585e41ebf8bda80c8.fbx.001",
             "rotation" : [
@@ -372,7 +318,7 @@
         },
         {
             "children" : [
-                35
+                32
             ],
             "name" : "Sketchfab_model.001",
             "rotation" : [
@@ -388,24 +334,6 @@
             ]
         },
         {
-            "mesh" : 3,
-            "name" : "VINUM EXTREME CHARDONNAY_Glass Basic White #1_0.001",
-            "rotation" : [
-                0,
-                0,
-                -1,
-                4.371138828673793e-08
-            ],
-            "translation" : [
-                0,
-                227.64340209960938,
-                1.52587890625e-05
-            ]
-        },
-        {
-            "children" : [
-                37
-            ],
             "name" : "VINUM EXTREME CHARDONNAY.008",
             "translation" : [
                 0,
@@ -415,7 +343,7 @@
         },
         {
             "children" : [
-                38
+                34
             ],
             "name" : "VINUM EXTREME CHARDONNAY.009",
             "translation" : [
@@ -426,7 +354,7 @@
         },
         {
             "children" : [
-                39
+                35
             ],
             "name" : "VINUM EXTREME CHARDONNAY.010",
             "translation" : [
@@ -437,7 +365,7 @@
         },
         {
             "children" : [
-                40
+                36
             ],
             "name" : "VINUM EXTREME CHARDONNAY.011",
             "translation" : [
@@ -447,7 +375,7 @@
             ]
         },
         {
-            "mesh" : 4,
+            "mesh" : 0,
             "name" : "vitis cabernet_Glass Basic White_0.001",
             "rotation" : [
                 0,
@@ -463,47 +391,29 @@
         },
         {
             "children" : [
-                42
+                38
             ],
             "name" : "vitis cabernet.008"
         },
         {
             "children" : [
-                43
+                39
             ],
             "name" : "vitis cabernet.009"
         },
         {
             "children" : [
-                44
+                40
             ],
             "name" : "vitis cabernet.010"
         },
         {
             "children" : [
-                45
+                41
             ],
             "name" : "vitis cabernet.011"
         },
         {
-            "mesh" : 5,
-            "name" : "VITIS RIESLING_Glass Basic White #2_0.001",
-            "rotation" : [
-                0,
-                0,
-                -1,
-                4.371138828673793e-08
-            ],
-            "translation" : [
-                0,
-                259.9791259765625,
-                -1.52587890625e-05
-            ]
-        },
-        {
-            "children" : [
-                47
-            ],
             "name" : "VITIS RIESLING.008",
             "translation" : [
                 0,
@@ -513,7 +423,7 @@
         },
         {
             "children" : [
-                48
+                43
             ],
             "name" : "VITIS RIESLING.009",
             "translation" : [
@@ -524,7 +434,7 @@
         },
         {
             "children" : [
-                49
+                44
             ],
             "name" : "VITIS RIESLING.010",
             "translation" : [
@@ -535,7 +445,7 @@
         },
         {
             "children" : [
-                50
+                45
             ],
             "name" : "VITIS RIESLING.011",
             "translation" : [
@@ -546,21 +456,21 @@
         },
         {
             "children" : [
-                41,
-                46,
-                51
+                37,
+                42,
+                46
             ],
             "name" : "Default.002"
         },
         {
             "children" : [
-                52
+                47
             ],
             "name" : "RootNode.002"
         },
         {
             "children" : [
-                53
+                48
             ],
             "name" : "2b863841e21a48b585e41ebf8bda80c8.fbx.002",
             "rotation" : [
@@ -572,7 +482,7 @@
         },
         {
             "children" : [
-                54
+                49
             ],
             "name" : "Sketchfab_model.002",
             "rotation" : [
@@ -600,7 +510,7 @@
             "emissiveTexture" : {
                 "index" : 0
             },
-            "name" : "Cups.003",
+            "name" : "Cups.001",
             "normalTexture" : {
                 "index" : 1
             },
@@ -624,7 +534,7 @@
             "emissiveTexture" : {
                 "index" : 4
             },
-            "name" : "Cups.001",
+            "name" : "Cups.003",
             "normalTexture" : {
                 "index" : 5
             },
@@ -640,7 +550,7 @@
     ],
     "meshes" : [
         {
-            "name" : "VINUM EXTREME CHARDONNAY_Glass Basic White #1_0",
+            "name" : "vitis cabernet_Glass Basic White_0.002",
             "primitives" : [
                 {
                     "attributes" : {
@@ -650,12 +560,7 @@
                     },
                     "indices" : 3,
                     "material" : 0
-                }
-            ]
-        },
-        {
-            "name" : "vitis cabernet_Glass Basic White_0",
-            "primitives" : [
+                },
                 {
                     "attributes" : {
                         "POSITION" : 4,
@@ -663,62 +568,6 @@
                         "TEXCOORD_0" : 6
                     },
                     "indices" : 7,
-                    "material" : 0
-                }
-            ]
-        },
-        {
-            "name" : "VITIS RIESLING_Glass Basic White #2_0",
-            "primitives" : [
-                {
-                    "attributes" : {
-                        "POSITION" : 8,
-                        "NORMAL" : 9,
-                        "TEXCOORD_0" : 10
-                    },
-                    "indices" : 11,
-                    "material" : 0
-                }
-            ]
-        },
-        {
-            "name" : "VINUM EXTREME CHARDONNAY_Glass Basic White #1_0.002",
-            "primitives" : [
-                {
-                    "attributes" : {
-                        "POSITION" : 12,
-                        "NORMAL" : 13,
-                        "TEXCOORD_0" : 14
-                    },
-                    "indices" : 3,
-                    "material" : 1
-                }
-            ]
-        },
-        {
-            "name" : "vitis cabernet_Glass Basic White_0.002",
-            "primitives" : [
-                {
-                    "attributes" : {
-                        "POSITION" : 15,
-                        "NORMAL" : 16,
-                        "TEXCOORD_0" : 17
-                    },
-                    "indices" : 7,
-                    "material" : 1
-                }
-            ]
-        },
-        {
-            "name" : "VITIS RIESLING_Glass Basic White #2_0.002",
-            "primitives" : [
-                {
-                    "attributes" : {
-                        "POSITION" : 18,
-                        "NORMAL" : 19,
-                        "TEXCOORD_0" : 20
-                    },
-                    "indices" : 11,
                     "material" : 1
                 }
             ]
@@ -784,316 +633,120 @@
         {
             "bufferView" : 0,
             "componentType" : 5126,
-            "count" : 1187,
+            "count" : 3382,
             "max" : [
-                57.01798629760742,
-                227.4603271484375,
-                57.06153106689453
+                57.01799011230469,
+                260.5038757324219,
+                213.44659423828125
             ],
             "min" : [
-                -56.78593826293945,
+                -56.78593444824219,
                 0,
-                -56.852516174316406
+                -192.82235717773438
             ],
             "type" : "VEC3"
         },
         {
             "bufferView" : 1,
             "componentType" : 5126,
-            "count" : 1187,
+            "count" : 3382,
             "type" : "VEC3"
         },
         {
             "bufferView" : 2,
             "componentType" : 5126,
-            "count" : 1187,
+            "count" : 3382,
             "type" : "VEC2"
         },
         {
             "bufferView" : 3,
             "componentType" : 5123,
-            "count" : 5328,
+            "count" : 14610,
             "type" : "SCALAR"
         },
         {
             "bufferView" : 4,
             "componentType" : 5126,
-            "count" : 1115,
+            "count" : 3387,
             "max" : [
-                52.22777557373047,
-                260.5008850097656,
-                52.0917854309082
+                178.0205078125,
+                260.5038757324219,
+                213.44659423828125
             ],
             "min" : [
-                -51.775577545166016,
-                0,
-                -51.920352935791016
+                64.21658325195312,
+                -5.257995326246601e-06,
+                -192.82235717773438
             ],
             "type" : "VEC3"
         },
         {
             "bufferView" : 5,
             "componentType" : 5126,
-            "count" : 1115,
+            "count" : 3387,
             "type" : "VEC3"
         },
         {
             "bufferView" : 6,
             "componentType" : 5126,
-            "count" : 1115,
+            "count" : 3387,
             "type" : "VEC2"
         },
         {
             "bufferView" : 7,
             "componentType" : 5123,
-            "count" : 4932,
+            "count" : 14610,
             "type" : "SCALAR"
-        },
-        {
-            "bufferView" : 8,
-            "componentType" : 5126,
-            "count" : 1077,
-            "max" : [
-                44.03248596191406,
-                260.5038757324219,
-                44.076297760009766
-            ],
-            "min" : [
-                -44.03248596191406,
-                -4.259581731525528e-15,
-                -44.076297760009766
-            ],
-            "type" : "VEC3"
-        },
-        {
-            "bufferView" : 9,
-            "componentType" : 5126,
-            "count" : 1077,
-            "type" : "VEC3"
-        },
-        {
-            "bufferView" : 10,
-            "componentType" : 5126,
-            "count" : 1077,
-            "type" : "VEC2"
-        },
-        {
-            "bufferView" : 11,
-            "componentType" : 5123,
-            "count" : 4350,
-            "type" : "SCALAR"
-        },
-        {
-            "bufferView" : 12,
-            "componentType" : 5126,
-            "count" : 1187,
-            "max" : [
-                57.01798629760742,
-                227.4603271484375,
-                57.06153106689453
-            ],
-            "min" : [
-                -56.78593826293945,
-                0,
-                -56.852516174316406
-            ],
-            "type" : "VEC3"
-        },
-        {
-            "bufferView" : 13,
-            "componentType" : 5126,
-            "count" : 1187,
-            "type" : "VEC3"
-        },
-        {
-            "bufferView" : 14,
-            "componentType" : 5126,
-            "count" : 1187,
-            "type" : "VEC2"
-        },
-        {
-            "bufferView" : 15,
-            "componentType" : 5126,
-            "count" : 1115,
-            "max" : [
-                52.22777557373047,
-                260.5008850097656,
-                52.0917854309082
-            ],
-            "min" : [
-                -51.775577545166016,
-                0,
-                -51.920352935791016
-            ],
-            "type" : "VEC3"
-        },
-        {
-            "bufferView" : 16,
-            "componentType" : 5126,
-            "count" : 1115,
-            "type" : "VEC3"
-        },
-        {
-            "bufferView" : 17,
-            "componentType" : 5126,
-            "count" : 1115,
-            "type" : "VEC2"
-        },
-        {
-            "bufferView" : 18,
-            "componentType" : 5126,
-            "count" : 1077,
-            "max" : [
-                44.03248596191406,
-                260.5038757324219,
-                44.076297760009766
-            ],
-            "min" : [
-                -44.03248596191406,
-                -4.259581731525528e-15,
-                -44.076297760009766
-            ],
-            "type" : "VEC3"
-        },
-        {
-            "bufferView" : 19,
-            "componentType" : 5126,
-            "count" : 1077,
-            "type" : "VEC3"
-        },
-        {
-            "bufferView" : 20,
-            "componentType" : 5126,
-            "count" : 1077,
-            "type" : "VEC2"
         }
     ],
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 14244,
+            "byteLength" : 40584,
             "byteOffset" : 0,
             "target" : 34962
         },
         {
             "buffer" : 0,
-            "byteLength" : 14244,
-            "byteOffset" : 14244,
+            "byteLength" : 40584,
+            "byteOffset" : 40584,
             "target" : 34962
         },
         {
             "buffer" : 0,
-            "byteLength" : 9496,
-            "byteOffset" : 28488,
+            "byteLength" : 27056,
+            "byteOffset" : 81168,
             "target" : 34962
         },
         {
             "buffer" : 0,
-            "byteLength" : 10656,
-            "byteOffset" : 37984,
+            "byteLength" : 29220,
+            "byteOffset" : 108224,
             "target" : 34963
         },
         {
             "buffer" : 0,
-            "byteLength" : 13380,
-            "byteOffset" : 48640,
+            "byteLength" : 40644,
+            "byteOffset" : 137444,
             "target" : 34962
         },
         {
             "buffer" : 0,
-            "byteLength" : 13380,
-            "byteOffset" : 62020,
+            "byteLength" : 40644,
+            "byteOffset" : 178088,
             "target" : 34962
         },
         {
             "buffer" : 0,
-            "byteLength" : 8920,
-            "byteOffset" : 75400,
+            "byteLength" : 27096,
+            "byteOffset" : 218732,
             "target" : 34962
         },
         {
             "buffer" : 0,
-            "byteLength" : 9864,
-            "byteOffset" : 84320,
+            "byteLength" : 29220,
+            "byteOffset" : 245828,
             "target" : 34963
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 12924,
-            "byteOffset" : 94184,
-            "target" : 34962
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 12924,
-            "byteOffset" : 107108,
-            "target" : 34962
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 8616,
-            "byteOffset" : 120032,
-            "target" : 34962
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 8700,
-            "byteOffset" : 128648,
-            "target" : 34963
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 14244,
-            "byteOffset" : 137348,
-            "target" : 34962
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 14244,
-            "byteOffset" : 151592,
-            "target" : 34962
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 9496,
-            "byteOffset" : 165836,
-            "target" : 34962
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 13380,
-            "byteOffset" : 175332,
-            "target" : 34962
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 13380,
-            "byteOffset" : 188712,
-            "target" : 34962
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 8920,
-            "byteOffset" : 202092,
-            "target" : 34962
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 12924,
-            "byteOffset" : 211012,
-            "target" : 34962
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 12924,
-            "byteOffset" : 223936,
-            "target" : 34962
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 8616,
-            "byteOffset" : 236860,
-            "target" : 34962
         }
     ],
     "samplers" : [
@@ -1104,7 +757,7 @@
     ],
     "buffers" : [
         {
-            "byteLength" : 245476,
+            "byteLength" : 275048,
             "uri" : "wineglasses_3x2_texturefromglasses.bin"
         }
     ]
