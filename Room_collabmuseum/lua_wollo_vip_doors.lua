@@ -1,8 +1,8 @@
 if callType == LuaCallType.Init then
-	WOLLO_INFINITE_DELAYY = 1e8
+	WOLLO_INFINITE_DELAY = 1e8
 	wollo_ld_isOpen = {false, false}
 	wollo_ld_outsideAllTriggers = {true, true}
-	wollo_ld_cardRemovalDelay = {WOLLO_INFINITE_DELAYY, WOLLO_INFINITE_DELAYY};
+	wollo_ld_cardRemovalDelay = {WOLLO_INFINITE_DELAY, WOLLO_INFINITE_DELAY};
 
 	wollo_ld_cardSlot = {wollo_ld_cardSlot1, wollo_ld_cardSlot2}
 	wollo_ld_insideTrigger = {wollo_ld_insideTrigger1, wollo_ld_insideTrigger2}
@@ -15,13 +15,15 @@ if callType == LuaCallType.Init then
 elseif callType == LuaCallType.SwitchStarted then
 	if context == wollo_ld_counter then
 		for i = 1, #wollo_ld_cardSlot do
-			wollo_ld_outsideAllTriggers[i] = not wollo_ld_outsideTrigger[i].unlocked and not wollo_ld_insideTrigger[i].unlocked
-			if wollo_ld_outsideAllTriggers[i] then
-				wollo_ld_cardRemovalDelay[i] = wollo_ld_cardRemovalDelay[i] - 1
-				if wollo_ld_cardRemovalDelay[i] == 0 then
-					api.setLockValue(wollo_ld_cardSlot[i], 0, 1)
-					wollo_ld_cardRemovalDelay[i] = WOLLO_INFINITE_DELAYY
-					api.activateSwitch(wollo_ld_redLight[i])
+			if wollo_ld_cardRemovalDelay[i] ~= WOLLO_INFINITE_DELAY then
+				wollo_ld_outsideAllTriggers[i] = not wollo_ld_outsideTrigger[i].unlocked and not wollo_ld_insideTrigger[i].unlocked
+				if wollo_ld_outsideAllTriggers[i] then
+					wollo_ld_cardRemovalDelay[i] = wollo_ld_cardRemovalDelay[i] - 1
+					if wollo_ld_cardRemovalDelay[i] == 0 then
+						api.setLockValue(wollo_ld_cardSlot[i], 0, 1)
+						wollo_ld_cardRemovalDelay[i] = WOLLO_INFINITE_DELAY
+						api.activateSwitch(wollo_ld_redLight[i])
+					end
 				end
 			end
 		end
