@@ -8,7 +8,7 @@
         {
             "name" : "Scene",
             "nodes" : [
-                6
+                5
             ]
         }
     ],
@@ -24,13 +24,8 @@
             "name" : "pCylinder1.001"
         },
         {
-            "mesh" : 1,
-            "name" : "pCylinder1_Bottleclear_0"
-        },
-        {
             "children" : [
-                1,
-                2
+                1
             ],
             "name" : "pCylinder1",
             "scale" : [
@@ -40,19 +35,19 @@
             ],
             "translation" : [
                 0,
-                3.7785699367523193,
+                3.7785696983337402,
                 0
             ]
         },
         {
             "children" : [
-                3
+                2
             ],
             "name" : "RootNode"
         },
         {
             "children" : [
-                4
+                3
             ],
             "name" : "bottlesp.fbx",
             "rotation" : [
@@ -63,13 +58,13 @@
             ],
             "scale" : [
                 0.009999999776482582,
-                0.010000000707805157,
-                0.010000000707805157
+                0.009999999776482582,
+                0.009999999776482582
             ]
         },
         {
             "children" : [
-                5
+                4
             ],
             "name" : "Sketchfab_model",
             "rotation" : [
@@ -135,12 +130,7 @@
                     },
                     "indices" : 10,
                     "material" : 0
-                }
-            ]
-        },
-        {
-            "name" : "pCylinder1_Bottleclear_0",
-            "primitives" : [
+                },
                 {
                     "attributes" : {
                         "POSITION" : 11,
