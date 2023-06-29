@@ -12,7 +12,7 @@
         {
             "name" : "Scene",
             "nodes" : [
-                5
+                2
             ]
         }
     ],
@@ -22,29 +22,14 @@
             "name" : "Object_2"
         },
         {
-            "mesh" : 1,
-            "name" : "Object_3"
-        },
-        {
-            "mesh" : 2,
-            "name" : "Object_4"
-        },
-        {
-            "mesh" : 3,
-            "name" : "Object_5"
-        },
-        {
             "children" : [
-                0,
-                1,
-                2,
-                3
+                0
             ],
             "name" : "34caf00500594db4838839116171f178.obj.cleaner.materialmerger.gle"
         },
         {
             "children" : [
-                4
+                1
             ],
             "name" : "Sketchfab_model",
             "rotation" : [
@@ -65,9 +50,9 @@
                 },
                 "KHR_materials_specular" : {
                     "specularColorFactor" : [
-                        1,
-                        1,
-                        1
+                        1.0000000000000002,
+                        1.0000000000000002,
+                        1.0000000000000002
                     ]
                 }
             },
@@ -170,12 +155,7 @@
                     },
                     "indices" : 3,
                     "material" : 0
-                }
-            ]
-        },
-        {
-            "name" : "Object_1",
-            "primitives" : [
+                },
                 {
                     "attributes" : {
                         "POSITION" : 4,
@@ -184,12 +164,7 @@
                     },
                     "indices" : 7,
                     "material" : 1
-                }
-            ]
-        },
-        {
-            "name" : "Object_2",
-            "primitives" : [
+                },
                 {
                     "attributes" : {
                         "POSITION" : 8,
@@ -198,12 +173,7 @@
                     },
                     "indices" : 11,
                     "material" : 2
-                }
-            ]
-        },
-        {
-            "name" : "Object_3",
-            "primitives" : [
+                },
                 {
                     "attributes" : {
                         "POSITION" : 12,
@@ -297,13 +267,13 @@
             "count" : 745,
             "max" : [
                 0.9002500176429749,
-                0.9002500176429749,
-                2.879370927810669
+                0.9002499580383301,
+                2.87937068939209
             ],
             "min" : [
                 -0.9002500176429749,
-                -0.9002500176429749,
-                -1.302983045578003
+                -0.9002499580383301,
+                -1.3029829263687134
             ],
             "type" : "VEC3"
         },
@@ -328,29 +298,29 @@
         {
             "bufferView" : 8,
             "componentType" : 5126,
-            "count" : 436,
+            "count" : 460,
             "max" : [
                 0.8796349763870239,
-                0.8796349763870239,
-                0.4671170115470886
+                0.8796349167823792,
+                0.46711698174476624
             ],
             "min" : [
                 -0.8796359896659851,
-                -0.8796349763870239,
-                -1.2877269983291626
+                -0.8796349167823792,
+                -1.287726879119873
             ],
             "type" : "VEC3"
         },
         {
             "bufferView" : 9,
             "componentType" : 5126,
-            "count" : 436,
+            "count" : 460,
             "type" : "VEC3"
         },
         {
             "bufferView" : 10,
             "componentType" : 5126,
-            "count" : 436,
+            "count" : 460,
             "type" : "VEC2"
         },
         {
@@ -365,13 +335,13 @@
             "count" : 502,
             "max" : [
                 1.0000100135803223,
-                1.0000100135803223,
-                2.4393930435180664
+                1.0000098943710327,
+                2.4393928050994873
             ],
             "min" : [
                 -1.0000100135803223,
-                -1.0000100135803223,
-                -1.4522449970245361
+                -1.0000098943710327,
+                -1.4522448778152466
             ],
             "type" : "VEC3"
         },
@@ -445,50 +415,50 @@
         },
         {
             "buffer" : 0,
-            "byteLength" : 5232,
+            "byteLength" : 5520,
             "byteOffset" : 48284,
             "target" : 34962
         },
         {
             "buffer" : 0,
-            "byteLength" : 5232,
-            "byteOffset" : 53516,
+            "byteLength" : 5520,
+            "byteOffset" : 53804,
             "target" : 34962
         },
         {
             "buffer" : 0,
-            "byteLength" : 3488,
-            "byteOffset" : 58748,
+            "byteLength" : 3680,
+            "byteOffset" : 59324,
             "target" : 34962
         },
         {
             "buffer" : 0,
             "byteLength" : 2172,
-            "byteOffset" : 62236,
+            "byteOffset" : 63004,
             "target" : 34963
         },
         {
             "buffer" : 0,
             "byteLength" : 6024,
-            "byteOffset" : 64408,
+            "byteOffset" : 65176,
             "target" : 34962
         },
         {
             "buffer" : 0,
             "byteLength" : 6024,
-            "byteOffset" : 70432,
+            "byteOffset" : 71200,
             "target" : 34962
         },
         {
             "buffer" : 0,
             "byteLength" : 4016,
-            "byteOffset" : 76456,
+            "byteOffset" : 77224,
             "target" : 34962
         },
         {
             "buffer" : 0,
             "byteLength" : 5220,
-            "byteOffset" : 80472,
+            "byteOffset" : 81240,
             "target" : 34963
         }
     ],
@@ -500,7 +470,7 @@
     ],
     "buffers" : [
         {
-            "byteLength" : 85692,
+            "byteLength" : 86460,
             "uri" : "decanter_edited.bin"
         }
     ]
