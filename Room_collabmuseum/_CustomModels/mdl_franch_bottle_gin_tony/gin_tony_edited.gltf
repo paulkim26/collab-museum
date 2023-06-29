@@ -35,7 +35,12 @@
         },
         {
             "mesh" : 2,
-            "name" : "defaultMaterial.001"
+            "name" : "defaultMaterial.001",
+            "scale" : [
+                1.100000023841858,
+                1.131649136543274,
+                1.100000023841858
+            ]
         },
         {
             "children" : [

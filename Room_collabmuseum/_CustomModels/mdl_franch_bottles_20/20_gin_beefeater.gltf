@@ -70,10 +70,10 @@
             ],
             "name" : "Beefeater",
             "rotation" : [
-                -0.7071062922477722,
-                -0.0009226124966517091,
-                -0.0009225974208675325,
-                0.7071061730384827
+                -0.707106351852417,
+                -0.0009226127294823527,
+                -0.0009225975372828543,
+                0.7071061134338379
             ],
             "translation" : [
                 0.036814719438552856,
@@ -262,14 +262,14 @@
         {
             "bufferView" : 8,
             "componentType" : 5126,
-            "count" : 16,
+            "count" : 8,
             "max" : [
-                3.4637794494628906,
-                3.4568936824798584,
-                18.040014266967773
+                3.4637792110443115,
+                -2.826439142227173,
+                18.04001235961914
             ],
             "min" : [
-                -3.4637789726257324,
+                -3.4637787342071533,
                 -3.4568979740142822,
                 3.6483981609344482
             ],
@@ -278,43 +278,43 @@
         {
             "bufferView" : 9,
             "componentType" : 5126,
-            "count" : 16,
+            "count" : 8,
             "type" : "VEC3"
         },
         {
             "bufferView" : 10,
             "componentType" : 5126,
-            "count" : 16,
+            "count" : 8,
             "type" : "VEC2"
         },
         {
             "bufferView" : 11,
             "componentType" : 5126,
-            "count" : 16,
+            "count" : 8,
             "type" : "VEC2"
         },
         {
             "bufferView" : 12,
             "componentType" : 5126,
-            "count" : 16,
+            "count" : 8,
             "type" : "VEC2"
         },
         {
             "bufferView" : 13,
             "componentType" : 5126,
-            "count" : 16,
+            "count" : 8,
             "type" : "VEC2"
         },
         {
             "bufferView" : 14,
             "componentType" : 5126,
-            "count" : 16,
+            "count" : 8,
             "type" : "VEC2"
         },
         {
             "bufferView" : 15,
             "componentType" : 5123,
-            "count" : 36,
+            "count" : 18,
             "type" : "SCALAR"
         }
     ],
@@ -369,50 +369,50 @@
         },
         {
             "buffer" : 0,
-            "byteLength" : 192,
+            "byteLength" : 96,
             "byteOffset" : 9592,
             "target" : 34962
         },
         {
             "buffer" : 0,
-            "byteLength" : 192,
+            "byteLength" : 96,
+            "byteOffset" : 9688,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 64,
             "byteOffset" : 9784,
             "target" : 34962
         },
         {
             "buffer" : 0,
-            "byteLength" : 128,
+            "byteLength" : 64,
+            "byteOffset" : 9848,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 64,
+            "byteOffset" : 9912,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 64,
             "byteOffset" : 9976,
             "target" : 34962
         },
         {
             "buffer" : 0,
-            "byteLength" : 128,
+            "byteLength" : 64,
+            "byteOffset" : 10040,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 36,
             "byteOffset" : 10104,
-            "target" : 34962
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 128,
-            "byteOffset" : 10232,
-            "target" : 34962
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 128,
-            "byteOffset" : 10360,
-            "target" : 34962
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 128,
-            "byteOffset" : 10488,
-            "target" : 34962
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 72,
-            "byteOffset" : 10616,
             "target" : 34963
         }
     ],
@@ -424,7 +424,7 @@
     ],
     "buffers" : [
         {
-            "byteLength" : 10688,
+            "byteLength" : 10140,
             "uri" : "20_gin_beefeater.bin"
         }
     ]
