@@ -85,10 +85,10 @@
             "mesh" : 4,
             "name" : "tx_creatorcard_blank6",
             "rotation" : [
-                0.35355350375175476,
+                0.3535534739494324,
                 -0.6123724579811096,
-                0.6123723983764648,
-                0.35355344414711
+                0.6123723387718201,
+                0.3535533845424652
             ],
             "translation" : [
                 0.1504737138748169,
@@ -132,7 +132,7 @@
                     ]
                 }
             },
-            "name" : "tx_creatorcard_zesty",
+            "name" : "tx_creatorcard_3-4",
             "pbrMetallicRoughness" : {
                 "baseColorTexture" : {
                     "index" : 1
@@ -159,7 +159,7 @@
                     ]
                 }
             },
-            "name" : "tx_creatorcard_franch",
+            "name" : "tx_creatorcard_3-3",
             "pbrMetallicRoughness" : {
                 "baseColorTexture" : {
                     "index" : 3
@@ -186,7 +186,7 @@
                     ]
                 }
             },
-            "name" : "tx_creatorcard_namo_krub",
+            "name" : "tx_creatorcard_3-2",
             "pbrMetallicRoughness" : {
                 "baseColorTexture" : {
                     "index" : 5
@@ -213,7 +213,7 @@
                     ]
                 }
             },
-            "name" : "tx_creatorcard_chazzyb",
+            "name" : "tx_creatorcard_3-1",
             "pbrMetallicRoughness" : {
                 "baseColorTexture" : {
                     "index" : 7
@@ -240,7 +240,7 @@
                     ]
                 }
             },
-            "name" : "tx_creatorcard_thoroniul",
+            "name" : "tx_creatorcard_3-6",
             "pbrMetallicRoughness" : {
                 "baseColorTexture" : {
                     "index" : 9
@@ -267,7 +267,7 @@
                     ]
                 }
             },
-            "name" : "tx_creatorcard_wollo",
+            "name" : "tx_creatorcard_3-5",
             "pbrMetallicRoughness" : {
                 "baseColorTexture" : {
                     "index" : 11
@@ -373,50 +373,75 @@
         },
         {
             "sampler" : 0,
-            "source" : 0
+            "source" : 1
         },
         {
             "sampler" : 0,
-            "source" : 0
+            "source" : 1
         },
         {
             "sampler" : 0,
-            "source" : 0
+            "source" : 2
         },
         {
             "sampler" : 0,
-            "source" : 0
+            "source" : 2
         },
         {
             "sampler" : 0,
-            "source" : 0
+            "source" : 3
         },
         {
             "sampler" : 0,
-            "source" : 0
+            "source" : 3
         },
         {
             "sampler" : 0,
-            "source" : 0
+            "source" : 4
         },
         {
             "sampler" : 0,
-            "source" : 0
+            "source" : 4
         },
         {
             "sampler" : 0,
-            "source" : 0
+            "source" : 5
         },
         {
             "sampler" : 0,
-            "source" : 0
+            "source" : 5
         }
     ],
     "images" : [
         {
             "mimeType" : "image/jpeg",
-            "name" : "tx_creatorcard_museumlogo",
-            "uri" : "tx_creatorcard_museumlogo.jpg"
+            "name" : "tx_creatorcard_museumlogo4",
+            "uri" : "tx_creatorcard_museumlogo4.jpg"
+        },
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "tx_creatorcard_museumlogo3",
+            "uri" : "tx_creatorcard_museumlogo3.jpg"
+        },
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "tx_creatorcard_museumlogo2",
+            "uri" : "tx_creatorcard_museumlogo2.jpg"
+        },
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "tx_creatorcard_museumlogo1",
+            "uri" : "tx_creatorcard_museumlogo1.jpg"
+        },
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "tx_creatorcard_museumlogo6",
+            "uri" : "tx_creatorcard_museumlogo6.jpg"
+        },
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "tx_creatorcard_museumlogo5",
+            "uri" : "tx_creatorcard_museumlogo5.jpg"
         }
     ],
     "accessors" : [
