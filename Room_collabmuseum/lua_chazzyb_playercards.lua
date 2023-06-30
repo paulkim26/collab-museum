@@ -1,48 +1,22 @@
 if callType == LuaCallType.Init then
-	spincardholder_01 = true;
-	spincardholder_02 = true; 
-	spincardholder_03 = true; 
 
-elseif callType == LuaCallType.Update then
-	if spincardholder_01 == true then
-                chazzyb_playercards1.transform.Rotate(6*Vector3.up * Time.deltaTime);
-	end
-	if spincardholder_02 == true then
-                chazzyb_playercards2.transform.Rotate(6*Vector3.up * Time.deltaTime);
-	end
-	if spincardholder_03 == true then
-                chazzyb_playercards3.transform.Rotate(6*Vector3.up * Time.deltaTime);
-	end
-	
-	if spincardholder_01 == false then
-                chazzyb_playercards1.transform.Rotate(0*Vector3.up * Time.deltaTime);
-	end
-	if spincardholder_02 == false then
-                chazzyb_playercards2.transform.Rotate(0*Vector3.up * Time.deltaTime);
-	end
-	if spincardholder_03 == false then
-                chazzyb_playercards3.transform.Rotate(0*Vector3.up * Time.deltaTime);
-	end
+	CARD_ROTATION = .1 * Vector3.up
+	spincardholder = {true, true, true}
+	chazzyb_playercards = {chazzyb_playercards1, chazzyb_playercards2, chazzyb_playercards3}
+	chazzyb_CardHolderTrigger = {chazzyb_CardHolder1Trigger, chazzyb_CardHolder2Trigger, chazzyb_CardHolder3Trigger}
 
-elseif callType == LuaCallType.TriggerEnter then
-	if context == chazzyb_CardHolder1Trigger then
-		spincardholder_01 = false;
+elseif callType == LuaCallType.SwitchStarted then
+	if context == wollo_playerCardPulse then
+		for i = 1, #spincardholder do
+			if spincardholder[i] then
+				chazzyb_playercards[i].transform.Rotate(CARD_ROTATION);
+			end
+		end
 	end
-	if context == chazzyb_CardHolder2Trigger then
-		spincardholder_02 = false;
-	end
-	if context == chazzyb_CardHolder3Trigger then
-		spincardholder_03 = false;
-	end
-
-elseif callType == LuaCallType.TriggerExit then
-	if context == chazzyb_CardHolder1Trigger then
-		spincardholder_01 = true;
-	end
-	if context == chazzyb_CardHolder2Trigger then
-		spincardholder_02 = true;
-	end
-	if context == chazzyb_CardHolder3Trigger then
-		spincardholder_03 = true;
+elseif callType == LuaCallType.TriggerEnter or callType == LuaCallType.TriggerExit then
+	for i = 1, #spincardholder do
+		if context == chazzyb_CardHolderTrigger[i] then
+			spincardholder[i] = callType == LuaCallType.TriggerExit;
+		end
 	end
 end
