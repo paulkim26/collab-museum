@@ -5,7 +5,7 @@ function collectToken()
     token_count = token_count + 1;
 	
 	if token_message_enable then
-		api.levelNote("\bYou found a token!\nTokens can be spent in the gift shop, found in the atrium.\n["..token_count.."/"..token_count_max.." found]");
+		api.levelNote("\bYou found a token!\nTokens can be spent in the Gift Shop, found in the Atrium.\n["..token_count.."/"..token_count_max.." found]");
 	end
 end
 
