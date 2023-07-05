@@ -1,17 +1,21 @@
-token_message_enable = true; --Set this to true when fix is ready
-token_count_max = 16;
-
 function collectToken()
     token_count = token_count + 1;
 	
 	if token_message_enable then
+		api.setLockValue(token_sound, 1, 1)
 		api.levelNote("\bYou found a token!\nTokens can be spent in the Gift Shop, found in the Atrium.\n["..token_count.."/"..token_count_max.." found]");
 	end
 end
 
 if callType == LuaCallType.Init then
+	token_message_enable = true;
 	token_count = 0;
-	
+	token_count_max = 16;
+
+elseif callType == LuaCallType.Unlock then
+	if context == token_disable	then
+		token_message_enable = false;
+	end
 
 elseif callType == LuaCallType.TriggerExit then
 
