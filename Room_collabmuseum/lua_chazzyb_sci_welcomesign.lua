@@ -4,11 +4,11 @@ if callType == LuaCallType.SwitchDone then
         if not context.isOn then
             context.outputValue = context.outputValue + 1
              
-            if context.outputValue > 15 then
-            	context.outputValue = 16
+            if context.outputValue > 29 then
+            	context.outputValue = 30
             end
             
-            if context.outputValue < 15 then
+            if context.outputValue < 29 then
                 api.activateSwitch(chazzyb_timer_welcome)
         end
         
