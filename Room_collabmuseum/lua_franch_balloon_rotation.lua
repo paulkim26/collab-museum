@@ -10,10 +10,10 @@ if context == balloon_rotation_cw then
    balloon_rotating = true
 end
 
- elseif callType == LuaCallType.Update then
-     if balloon_rotating == true then
-     delta = d_theta * Time.deltaTime
-   balloon_rotation_cw.transform.Rotate(0,delta,0)
+elseif callType == LuaCallType.Update then
+    if balloon_rotating == true then
+        delta = d_theta * Time.deltaTime
+        balloon_rotation_cw.transform.Rotate(0,delta,0)
+        balloon_counter_rotation_ccw.transform.Rotate(0,-delta,0)
    end
-
 end
