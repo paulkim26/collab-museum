@@ -231,6 +231,36 @@ elseif callType == LuaCallType.Unlock then
 	elseif context == z06_slot_11_remove then
 		setSlot(11, nil)
 		checkLinks(11)
+	elseif context == z06_slot_remove_all then
+		--null out all slot values (except center (slot 6))
+		for i=1, 5 do
+			setSlot(i, nil)
+		end
+		for i=7, rows do
+			setSlot(i, nil)
+		end
+		--check over all links
+		--for i=1, rows do
+		--	checkLinks(i)
+		--end
+		api.setLockValue(z06_link_1a_off, 1, 1)
+		api.setLockValue(z06_link_1b_off, 1, 1)
+		api.setLockValue(z06_link_2a_off, 1, 1)
+		api.setLockValue(z06_link_2b_off, 1, 1)
+		api.setLockValue(z06_link_2c_off, 1, 1)
+		api.setLockValue(z06_link_2d_off, 1, 1)
+		api.setLockValue(z06_link_2e_off, 1, 1)
+		api.setLockValue(z06_link_3a_off, 1, 1)
+		api.setLockValue(z06_link_3b_off, 1, 1)
+		api.setLockValue(z06_link_3c_off, 1, 1)
+		api.setLockValue(z06_link_3d_off, 1, 1)
+		api.setLockValue(z06_link_4a_off, 1, 1)
+		api.setLockValue(z06_link_4b_off, 1, 1)
+		api.setLockValue(z06_link_4c_off, 1, 1)
+		api.setLockValue(z06_link_4d_off, 1, 1)
+		api.setLockValue(z06_link_4e_off, 1, 1)
+		api.setLockValue(z06_link_5a_off, 1, 1)
+		api.setLockValue(z06_link_5b_off, 1, 1)
 	end
 	
 elseif callType == LuaCallType.Slot then
