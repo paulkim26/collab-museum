@@ -29,12 +29,12 @@ elseif callType == LuaCallType.Update then
 	trig_z_spinner.transform.Rotate(Z_FREQUENCY*Vector3.up * Time.deltaTime)
 	
 	--pen
-	--trig_pen.transform.position = api.vector3(trig_x_tracker.transform.position.x, 1.08, trig_z_tracker.transform.position.z)
-	--trig_x_arm.transform.position = api.vector3(trig_x_tracker.transform.position.x, 1.25, trig_z_tracker.transform.position.z + 0.44)
-	--trig_z_arm.transform.position = api.vector3(trig_x_tracker.transform.position.x - 0.44, 1.25, trig_z_tracker.transform.position.z)
+	--trig_pen.transform.position = api.vector3(trig_x_tracker.transform.position.x, 1.136, trig_z_tracker.transform.position.z)
+	--trig_x_arm.transform.position = api.vector3(trig_x_tracker.transform.position.x, 1.3, trig_z_tracker.transform.position.z + 0.44)
+	--trig_z_arm.transform.position = api.vector3(trig_x_tracker.transform.position.x - 0.44, 1.3, trig_z_tracker.transform.position.z)
 
 	--with (0, 90, 0) Rotation
-	trig_pen.transform.position = api.vector3(trig_z_tracker.transform.position.x, 1.08, trig_x_tracker.transform.position.z)
-	trig_x_arm.transform.position = api.vector3(trig_z_tracker.transform.position.x + 0.44, 1.25, trig_x_tracker.transform.position.z)
-	trig_z_arm.transform.position = api.vector3(trig_z_tracker.transform.position.x, 1.25, trig_x_tracker.transform.position.z + 0.44)
+	trig_pen.transform.position = api.vector3(trig_z_tracker.transform.position.x, 1.136, trig_x_tracker.transform.position.z)
+	trig_x_arm.transform.position = api.vector3(trig_z_tracker.transform.position.x + 0.44, 1.3, trig_x_tracker.transform.position.z)
+	trig_z_arm.transform.position = api.vector3(trig_z_tracker.transform.position.x, 1.3, trig_x_tracker.transform.position.z + 0.44)
 end
